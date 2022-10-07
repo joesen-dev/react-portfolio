@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import avatar from "../../assets/images/portfolio-avatar2.png";
 
-function Nav() {
+function Nav(props) {
+  const { categories = [], setCurrentCategory, currentCategory } = props;
+  useEffect(() => {
+    document.title = `${currentCategory.name}`;
+  }, [currentCategory]);
+
   return (
     <section className="hero">
       <header className="App-header">
@@ -12,18 +17,30 @@ function Nav() {
             alt="Joseph's portfolio avatar"
           />
           <ul id="nav-list">
-            <li>
-              <a href="#about-me">About me</a>
-            </li>
-            <li>
-              <a href="#projects">Portfolio</a>
-            </li>
-            <li>
-              <a href="#contact-me">Contact</a>
-            </li>
-            <li>
+            <li>{/* <a href="#about">About me</a> */}</li>
+            {/* <li>
+              <a href="#portfolio">Portfolio</a>
+            </li> */}
+            <li>{/* <a href="#contact">Contact</a> */}</li>
+            {/* <li>
               <a href="#resume">Resume</a>
-            </li>
+            </li> */}
+            {categories.map((category) => (
+              <li
+                className={`${
+                  currentCategory.name === category.name && "navActive"
+                }`}
+                key={category.name}
+              >
+                <span
+                  onClick={() => {
+                    setCurrentCategory(category);
+                  }}
+                >
+                  {category.name}
+                </span>
+              </li>
+            ))}
           </ul>
           <button className="hamburger" id="hamburger">
             <i className="fas fa-bars"></i>
