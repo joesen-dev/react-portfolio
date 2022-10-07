@@ -1,4 +1,5 @@
 import React from "react";
+import resume from "../../assets/images/project-images/resume-template.pdf";
 
 function Resume() {
   return (
@@ -6,7 +7,12 @@ function Resume() {
       <div>
         <h2>Resume</h2>
       </div>
-      <span>Download my resume</span>
+      <span>
+        Download my{" "}
+        <a href={resume} download>
+          <button>resume</button>
+        </a>
+      </span>
       <div>
         <h3>Front-end Proficiencies</h3>
         <ul>
