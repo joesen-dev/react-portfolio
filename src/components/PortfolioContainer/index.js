@@ -25,7 +25,7 @@ export default function PortfolioContainer() {
   const handlePageChange = page => setCurrentPage(page);
 
   return (
-    <div>
+    <div id="bootstrap-overrides">
       <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
       <Footer></Footer>
