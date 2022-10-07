@@ -44,39 +44,49 @@ function ContactForm() {
     <section>
       <h2>Contact me</h2>
       <form id="contact-form" onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor="name">Name:</label>
+        <div className="mb-3">
+          <label htmlFor="name" className="form-label">
+            Name
+          </label>
           <input
             type="text"
             defaultValue={name}
             onBlur={handleChange}
             name="name"
-          />
+            className="form-control"
+            placeholder="John Smith"></input>
         </div>
-        <div>
-          <label htmlFor="email">Email address:</label>
+        <div className="mb-3">
+          <label htmlFor="email" className="form-label">
+            Email address
+          </label>
           <input
             type="email"
             defaultValue={email}
             onBlur={handleChange}
             name="email"
-          />
+            className="form-control"
+            placeholder="name@example.com"></input>
         </div>
-        <div>
-          <label htmlFor="message">Message:</label>
+        <div className="mb-3">
+          <label htmlFor="message" className="form-label">
+            Type a message
+          </label>
           <textarea
             name="message"
             defaultValue={message}
             onBlur={handleChange}
             rows="5"
-          />
+            className="form-control"></textarea>
           {errorMessage && (
             <div>
               <p className="error-text">{errorMessage}</p>
             </div>
           )}
         </div>
-        <button type="submit">Submit</button>
+        <button type="submit" className="btn btn-primary">
+          Submit
+        </button>
       </form>
     </section>
   );
