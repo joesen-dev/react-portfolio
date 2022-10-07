@@ -73,7 +73,9 @@ function Nav(props) {
             <h1>Joseph</h1>
             <p>Full Stack Developer</p>
             <div className="button">
-              <a href="#about-me">About me</a>
+              <a href="#about" onClick={() => handlePageChange("About")}>
+                About me
+              </a>
             </div>
           </div>
           <div className="socials"></div>
