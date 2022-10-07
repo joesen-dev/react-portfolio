@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 import avatar from "../../assets/images/portfolio-avatar2.png";
 
-function Nav() {
+function Nav(props) {
+  const { currentPage, handlePageChange } = props;
+  useEffect(() => {
+    document.title = `${currentPage}`;
+  }, [currentPage]);
+
   return (
     <section className="hero">
       <header className="App-header">
@@ -12,24 +17,52 @@ function Nav() {
             alt="Joseph's portfolio avatar"
           />
           <ul id="nav-list">
+            {/* <li><a href="#about">About me</a></li> */}
             <li>
-              <a href="#about-me">About me</a>
+              <a
+                href="#about"
+                onClick={() => handlePageChange("About")}
+                // (ternary) operator that checks to see if the current page is "About"
+                // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
+                className={currentPage === "About" ? "navActive" : "nav-link"}
+              >
+                About
+              </a>
             </li>
             <li>
-              <a href="#projects">Portfolio</a>
+              <a
+                href="#portfolio"
+                onClick={() => handlePageChange("Portfolio")}
+                className={
+                  currentPage === "Portfolio" ? "navActive" : "nav-link"
+                }
+              >
+                Portfolio
+              </a>
             </li>
             <li>
-              <a href="#contact-me">Contact</a>
+              <a
+                href="#contact"
+                onClick={() => handlePageChange("Contact")}
+                className={currentPage === "Contact" ? "navActive" : "nav-link"}
+              >
+                Contact
+              </a>
             </li>
             <li>
-              <a href="#resume">Resume</a>
+              <a
+                href="#resume"
+                onClick={() => handlePageChange("Resume")}
+                className={currentPage === "Resume" ? "navActive" : "nav-link"}
+              >
+                Resume
+              </a>
             </li>
           </ul>
           <button className="hamburger" id="hamburger">
             <i className="fas fa-bars"></i>
           </button>
         </nav>
-
         <div className="hero-container">
           <div className="hero-text">
             <h1>Joseph</h1>

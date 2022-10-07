@@ -3,7 +3,7 @@ import headShot from "../../assets/images/portfolio-avatar2.png";
 
 function About() {
   return (
-    <section>
+    <section className="sub-section" id="about">
       <div>
         <h2>About Me</h2>
         <p>Hi, my name's Joseph. I'm a Full Stack Developer.</p>

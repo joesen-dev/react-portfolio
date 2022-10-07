@@ -2,7 +2,7 @@ import React from "react";
 
 function Portfolio() {
   return (
-    <section className="sub-section-projects" id="projects">
+    <section className="sub-section-projects" id="portfolio">
       <h2>Projects</h2>
       <div className="project-container">
         {/* Git Social */}
