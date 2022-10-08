@@ -21,11 +21,21 @@
 .nav {
   --bs-nav-link-color: white;
 }
+.navbar-nav {
+  --bs-nav-link-color: white;
+}
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: var(--bs-nav-pills-link-active-color);
   background-color: var(--tertiary);
 }
+.navbar-toggler-icon {
+  font-size: 30px;
+}
+/* this is a black icon with 50% opacity */
+/* .navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;..");
+} */
 .container-fluid {
   margin-left: 0;
 }
