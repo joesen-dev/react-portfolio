@@ -29,6 +29,31 @@
 .container-fluid {
   margin-left: 0;
 }
+.container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+/* Text will show only when hovering over the card */
+/* Child Text Container */
+.card-img-overlay {
+  background: black; /* turns card completely black */
+  color: white;
+  opacity: 0; /* Makes card img visible again */
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+/* Hover on Parent Container */
+.content_img:hover {
+  cursor: pointer;
+}
+.content_img:hover div {
+  padding: 8px 15px;
+  visibility: visible;
+  opacity: 0.7;
+}
+/* ---------------------------------------- */
 
 body {
   font-family: "Poppins", sans-serif;

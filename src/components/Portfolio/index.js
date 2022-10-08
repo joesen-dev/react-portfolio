@@ -10,11 +10,11 @@ function Portfolio() {
   return (
     <section className="sub-section-projects" id="portfolio">
       <h2>Projects</h2>
-      <div class="container">
-        <div class="row">
+      <div className="container">
+        <div className="row">
           {/* Git Social */}
-          <div class="col-sm-6">
-            <div class="card text-bg-dark">
+          <div className="col-sm-6">
+            <div className="card text-bg-dark content_img">
               <img src={gitSocial} className="card-img" alt="Git Social"></img>
               <div className="card-img-overlay">
                 <h5 className="card-title">Git Social</h5>
@@ -40,15 +40,15 @@ function Portfolio() {
                   href="https://pacific-taiga-17313.herokuapp.com/">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="icon icon-tabler icon-tabler-apps"
+                    className="icon icon-tabler icon-tabler-apps"
                     width="44"
                     height="44"
                     viewBox="0 0 24 24"
-                    stroke-width="1.5"
+                    strokeWidth="1.5"
                     stroke="#2c3e50"
                     fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round">
+                    strokeLinecap="round"
+                    strokeLinejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                     <rect x="4" y="4" width="6" height="6" rx="1" />
                     <rect x="4" y="14" width="6" height="6" rx="1" />
@@ -61,8 +61,8 @@ function Portfolio() {
             </div>
           </div>
           {/*  FOODr  */}
-          <div class="col-sm-6">
-            <div class="card text-bg-dark">
+          <div className="col-sm-6">
+            <div className="card text-bg-dark content_img">
               <img src={foodr} className="card-img" alt="FOODr"></img>
               <div className="card-img-overlay">
                 <h5 className="card-title">FOODr</h5>
@@ -88,11 +88,11 @@ function Portfolio() {
         </div>
       </div>
 
-      <div class="container">
-        <div class="row">
+      <div className="container">
+        <div className="row">
           {/*  Readme Pro  */}
-          <div class="col-sm-6">
-            <div class="card text-bg-dark">
+          <div className="col-sm-6">
+            <div className="card text-bg-dark content_img">
               <img src={readMePro} className="card-img" alt="Readme Pro"></img>
               <div className="card-img-overlay">
                 <h5 className="card-title">Readme Pro</h5>
@@ -116,8 +116,8 @@ function Portfolio() {
             </div>
           </div>
           {/* Note Taker */}
-          <div class="col-sm-6">
-            <div class="card text-bg-dark">
+          <div className="col-sm-6">
+            <div className="card text-bg-dark content_img">
               <img src={noteTaker} className="card-img" alt="Note Taker"></img>
               <div className="card-img-overlay">
                 <h5 className="card-title">Note Taker</h5>
@@ -143,15 +143,15 @@ function Portfolio() {
                   href="https://note-taker-sen.herokuapp.com/">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="icon icon-tabler icon-tabler-apps"
+                    className="icon icon-tabler icon-tabler-apps"
                     width="44"
                     height="44"
                     viewBox="0 0 24 24"
-                    stroke-width="1.5"
+                    strokeWidth="1.5"
                     stroke="#2c3e50"
                     fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round">
+                    strokeLinecap="round"
+                    strokeLinejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none" />
                     <rect x="4" y="4" width="6" height="6" rx="1" />
                     <rect x="4" y="14" width="6" height="6" rx="1" />
@@ -165,11 +165,11 @@ function Portfolio() {
           </div>
         </div>
       </div>
-      <div class="container">
-        <div class="row">
+      <div className="container">
+        <div className="row">
           {/*  Team Builder  */}
-          <div class="col-sm-6">
-            <div class="card text-bg-dark">
+          <div className="col-sm-6">
+            <div className="card text-bg-dark content_img">
               <img
                 src={teamBuider}
                 className="card-img"
@@ -196,8 +196,8 @@ function Portfolio() {
             </div>
           </div>
           {/*  Staff Tracker  */}
-          <div class="col-sm-6">
-            <div class="card text-bg-dark">
+          <div className="col-sm-6">
+            <div className="card text-bg-dark content_img">
               <img
                 src={staffTracker}
                 className="card-img"
