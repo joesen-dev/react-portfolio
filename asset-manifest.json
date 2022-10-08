@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.c357922b.css",
+    "main.js": "/react-portfolio/static/js/main.9ed0e8ae.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/readme-pro.png": "/react-portfolio/static/media/readme-pro.25df680603b7697376fa.png",
+    "static/media/FOODr.png": "/react-portfolio/static/media/FOODr.351543a633369cd2304d.png",
+    "static/media/git-social.png": "/react-portfolio/static/media/git-social.ba1dfbcbeb431c3b72cc.png",
+    "static/media/staff-tracker-screenshot.png": "/react-portfolio/static/media/staff-tracker-screenshot.74ec66f1bbec41852004.png",
+    "static/media/team-builder.png": "/react-portfolio/static/media/team-builder.bfb3da2bd816133c18ed.png",
+    "static/media/portfolio-avatar2.png": "/react-portfolio/static/media/portfolio-avatar2.f87b1b409c3992ddc356.png",
+    "static/media/resume-template.pdf": "/react-portfolio/static/media/resume-template.46b3f5d98f6e2f2dedce.pdf",
+    "static/media/note-taker.png": "/react-portfolio/static/media/note-taker.bc981bed34e8f5b7d61b.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.c357922b.css.map": "/react-portfolio/static/css/main.c357922b.css.map",
+    "main.9ed0e8ae.js.map": "/react-portfolio/static/js/main.9ed0e8ae.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c357922b.css",
+    "static/js/main.9ed0e8ae.js"
+  ]
+}
