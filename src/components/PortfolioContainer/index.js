@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Nav from "../Nav";
+import Navigation from "../Nav";
 import About from "../About";
 import Portfolio from "../Portfolio";
 import Contact from "../Contact";
@@ -26,7 +26,10 @@ export default function PortfolioContainer() {
 
   return (
     <div id="bootstrap-overrides">
-      <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Navigation
+        currentPage={currentPage}
+        handlePageChange={handlePageChange}
+      />
       {renderPage()}
       <Footer></Footer>
     </div>
