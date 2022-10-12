@@ -7,6 +7,7 @@ This repository contains the code for my single-page <a href="https://joesen-dev
 ## Table of Contents
 
 - [Technologies](#technologies)
+- [Screenshots](#screenshots)
 - [Questions](#questions)
 
 ## Technologies
@@ -15,6 +16,12 @@ This repository contains the code for my single-page <a href="https://joesen-dev
 - Reactbootstrap
 - Bootstrap
 - NodeJS
+
+## Screenshots
+
+**hero banner(mobile)**
+
+![hero banner](./src/assets/images/screenshots/hero-banner.png)
 
 ## Questions
 
