@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.c357922b.css",
-    "main.js": "/react-portfolio/static/js/main.9ed0e8ae.js",
+    "main.css": "/react-portfolio/static/css/main.22083ddc.css",
+    "main.js": "/react-portfolio/static/js/main.357406ed.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/readme-pro.png": "/react-portfolio/static/media/readme-pro.25df680603b7697376fa.png",
     "static/media/FOODr.png": "/react-portfolio/static/media/FOODr.351543a633369cd2304d.png",
@@ -12,12 +12,12 @@
     "static/media/resume-template.pdf": "/react-portfolio/static/media/resume-template.46b3f5d98f6e2f2dedce.pdf",
     "static/media/note-taker.png": "/react-portfolio/static/media/note-taker.bc981bed34e8f5b7d61b.png",
     "index.html": "/react-portfolio/index.html",
-    "main.c357922b.css.map": "/react-portfolio/static/css/main.c357922b.css.map",
-    "main.9ed0e8ae.js.map": "/react-portfolio/static/js/main.9ed0e8ae.js.map",
+    "main.22083ddc.css.map": "/react-portfolio/static/css/main.22083ddc.css.map",
+    "main.357406ed.js.map": "/react-portfolio/static/js/main.357406ed.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c357922b.css",
-    "static/js/main.9ed0e8ae.js"
+    "static/css/main.22083ddc.css",
+    "static/js/main.357406ed.js"
   ]
 }
