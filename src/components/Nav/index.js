@@ -61,13 +61,12 @@ function Navigation(props) {
       </header>
       <div className="hero-container">
         <div className="hero-text">
-          <h1>Joseph</h1>
-          <p>Full Stack Developer</p>
-          <div className="button">
+          <h1>
             <a href="#about" onClick={() => handlePageChange("About")}>
-              About me
+              Joseph
             </a>
-          </div>
+          </h1>
+          <p>Full Stack Developer</p>
         </div>
       </div>
     </section>

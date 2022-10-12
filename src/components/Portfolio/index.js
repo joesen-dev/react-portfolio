@@ -18,11 +18,11 @@ function Portfolio() {
               <img src={gitSocial} className="card-img" alt="Git Social"></img>
               <div className="card-img-overlay">
                 <h5 className="card-title">Git Social</h5>
-                <p className="card-text">
+                {/* <p className="card-text">
                   Git Social is a social app for new developers to post about
                   their projects and solicit help from other developers looking
                   to build their portfolios.
-                </p>
+                </p> */}
                 <a
                   className="project-link"
                   href="https://github.com/joesen-dev/git-social">
@@ -66,10 +66,10 @@ function Portfolio() {
               <img src={foodr} className="card-img" alt="FOODr"></img>
               <div className="card-img-overlay">
                 <h5 className="card-title">FOODr</h5>
-                <p className="card-text">
+                {/* <p className="card-text">
                   FOODr is a recommendation app that suggests local restaurants
                   near the user.
-                </p>
+                </p> */}
                 <a
                   className="project-link"
                   href="https://github.com/joesen-dev/projectAwesome">
@@ -96,10 +96,10 @@ function Portfolio() {
               <img src={readMePro} className="card-img" alt="Readme Pro"></img>
               <div className="card-img-overlay">
                 <h5 className="card-title">Readme Pro</h5>
-                <p className="card-text">
+                {/* <p className="card-text">
                   The README generator is designed to streamline creating
                   Professional README files for developers
-                </p>
+                </p> */}
                 <a
                   className="project-link"
                   href="https://github.com/joesen-dev/readme-pro">
@@ -121,11 +121,11 @@ function Portfolio() {
               <img src={noteTaker} className="card-img" alt="Note Taker"></img>
               <div className="card-img-overlay">
                 <h5 className="card-title">Note Taker</h5>
-                <p className="card-text">
+                {/* <p className="card-text">
                   Use Note Taker to write and save notes so that you can
                   organize my thoughts and keep track of tasks you need to
                   complete.
-                </p>
+                </p> */}
                 <a
                   className="project-link"
                   href="https://github.com/joesen-dev/note-taker">
@@ -176,10 +176,10 @@ function Portfolio() {
                 alt="Team Builder"></img>
               <div className="card-img-overlay">
                 <h5 className="card-title">Team Builder </h5>
-                <p className="card-text">
+                {/* <p className="card-text">
                   A command line application that takes user input and builds a
                   webpage with the team's basic information.
-                </p>
+                </p> */}
                 <a
                   className="project-link"
                   href="https://github.com/joesen-dev/team-builder">
@@ -204,10 +204,10 @@ function Portfolio() {
                 alt="Staff Tracker"></img>
               <div className="card-img-overlay">
                 <h5 className="card-title">Staff Tracker</h5>
-                <p className="card-text">
+                {/* <p className="card-text">
                   View and manage the the departments, roles, and employees in
                   your company in the command line with Staff Tracker.
-                </p>
+                </p> */}
                 <a
                   className="project-link"
                   href="https://github.com/joesen-dev/team-builder">
