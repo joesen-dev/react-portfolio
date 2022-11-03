@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.22083ddc.css",
-    "main.js": "/react-portfolio/static/js/main.357406ed.js",
+    "main.js": "/react-portfolio/static/js/main.d4e6f22b.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/readme-pro.png": "/react-portfolio/static/media/readme-pro.25df680603b7697376fa.png",
+    "static/media/Capstone.png": "/react-portfolio/static/media/Capstone.6b1ed00a4408d2f6e245.png",
     "static/media/FOODr.png": "/react-portfolio/static/media/FOODr.351543a633369cd2304d.png",
     "static/media/git-social.png": "/react-portfolio/static/media/git-social.ba1dfbcbeb431c3b72cc.png",
     "static/media/staff-tracker-screenshot.png": "/react-portfolio/static/media/staff-tracker-screenshot.74ec66f1bbec41852004.png",
@@ -13,11 +14,11 @@
     "static/media/note-taker.png": "/react-portfolio/static/media/note-taker.bc981bed34e8f5b7d61b.png",
     "index.html": "/react-portfolio/index.html",
     "main.22083ddc.css.map": "/react-portfolio/static/css/main.22083ddc.css.map",
-    "main.357406ed.js.map": "/react-portfolio/static/js/main.357406ed.js.map",
+    "main.d4e6f22b.js.map": "/react-portfolio/static/js/main.d4e6f22b.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.22083ddc.css",
-    "static/js/main.357406ed.js"
+    "static/js/main.d4e6f22b.js"
   ]
 }
