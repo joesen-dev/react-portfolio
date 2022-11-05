@@ -32,4 +32,4 @@ The source code for my single-page <a href="https://joesen-dev.github.io/react-p
 **How to reach me**
 
 - <a href="https://github.com/joesen-dev">Github</a>
-- Email senjoseph90@gmail.com
+- <a href="https://www.linkedin.com/in/josephsenyonga418245213/">LinkedIn</a>
