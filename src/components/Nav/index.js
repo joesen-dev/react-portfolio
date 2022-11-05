@@ -16,7 +16,7 @@ function Navigation(props) {
         {/* REACT NAVBAR */}
         <Navbar expand='lg'>
           <Container>
-            <Navbar.Brand href='#home'>
+            <Navbar.Brand href='#about'>
               <img
                 src={avatar}
                 className='avatar'
