@@ -1,0 +1,305 @@
+:root {
+  --primary: #1c1d25;
+  --secondary: #938486ff;
+  --tertiary: #f3a847;
+  --light: #fafafa;
+  --dark: #030001ff;
+  --darker: #111111;
+  --cafe-noir: #523e2eff;
+  --black-2: #000000ff;
+
+  --error: rgb(228, 46, 1);
+  --spacing-one: calc(1rem * 0.5);
+  --spacing-two: calc(1rem);
+  --spacing-five: calc(2.5rem);
+}
+
+/* Tailwind Directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'burtons';
+  src: url('../public/Burtons.otf');
+}
+
+/* Bootstrap overrides */
+/* .navbar {
+  --bs-navbar-color: white;
+} */
+.nav {
+  --bs-nav-link-color: white;
+}
+.navbar-nav {
+  --bs-nav-link-color: white;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: var(--bs-nav-pills-link-active-color);
+  background-color: var(--tertiary);
+}
+.navbar-toggler-icon {
+  font-size: 30px;
+}
+/* this is a black icon with 50% opacity */
+/* .navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;..");
+} */
+.container-fluid {
+  margin-left: 0;
+}
+
+/* Text will show only when hovering over the card */
+/* Child Text Container */
+.card-img-overlay {
+  background: black; /* turns card completely black */
+  color: white;
+  opacity: 0; /* Makes card img visible again */
+  visibility: hidden;
+  -webkit-transition: visibility 0s, opacity 0.5s linear;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+/* Hover on Parent Container */
+.content_img:hover {
+  cursor: pointer;
+}
+.content_img:hover div {
+  padding: 8px 15px;
+  visibility: visible;
+  opacity: 0.7;
+}
+/* ---------------------------------------- */
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+section {
+  background-color: white;
+}
+
+.hero {
+  background-color: var(--primary);
+  height: 100vh;
+  color: white !important;
+  font-size: 40px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 80px;
+}
+
+nav {
+  /* color: white; */
+  display: flex;
+  justify-content: space-between;
+  /* background-color: var(--black-2) !important; */
+  background-color: transparent !important;
+  -webkit-box-shadow: 0 0px 0px 0 rgb(0 0 0 / 0%),
+    0 0px 0px -0px rgb(0 0 0 / 0%), 0 0px 0px 0 rgb(0 0 0 / 0%);
+}
+
+ul {
+  display: flex;
+  list-style-type: none !important;
+  padding: 0;
+  margin: 30px;
+  justify-content: space-around;
+  font-size: 30;
+}
+
+li {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 90px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+p {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 300;
+}
+
+.subtext {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.hero-container {
+  display: flex;
+  height: 90%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-text {
+  margin-left: 80px;
+  margin-bottom: 200px;
+}
+
+.button {
+  width: 200px;
+  height: 55px;
+  border-radius: 30px;
+  background-color: coral;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 300;
+  padding-top: 5px;
+  margin-top: 20px;
+}
+
+.button:hover {
+  background-color: #ef744b;
+}
+
+.button:active {
+  background-color: #a9a9a9;
+  color: #808080;
+}
+
+.socials {
+  padding-bottom: 200px;
+}
+
+.avatar {
+  height: 80px;
+  margin: 30px;
+}
+
+.social {
+  margin: 20px;
+}
+
+.sub-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px;
+}
+
+.sub-section-projects {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 80px;
+}
+
+.headshot {
+  width: 300px;
+}
+
+.headshot-container {
+  display: flex;
+  align-items: center;
+}
+
+.project-card {
+  width: 300px;
+  height: 500px;
+  box-shadow: 5px 5px 20px rgb(203, 203, 203);
+  margin: 10px;
+}
+
+.project-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media only screen and (max-width: 1000px) {
+  .project-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.project-image {
+  margin-top: 25px;
+  width: 250px;
+  border-radius: 125px;
+}
+
+hr {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.project-link {
+  text-decoration: none;
+  color: #ef744b;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.hamburger {
+  display: none;
+}
+
+.hamburger:focus {
+  outline: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+  .hamburger {
+    display: block;
+    border: 0;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    margin: 20px;
+    align-self: flex-end;
+  }
+
+  ul {
+    display: none;
+    background-color: #2b2c38;
+    margin: 0px;
+  }
+
+  ul.show {
+    display: block;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: #2b2c38;
+  }
+
+  .avatar {
+    display: none;
+  }
+}
+
+.navActive {
+  color: var(--tertiary);
+}
