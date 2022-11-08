@@ -3,7 +3,7 @@ import Navigation from '../Nav';
 import Banner from '../Banner';
 import About from '../About';
 import Portfolio from '../Portfolio';
-import Contact from '../Contact';
+// import Contact from '../Contact';
 import Resume from '../Resume';
 import Footer from '../Footer';
 
