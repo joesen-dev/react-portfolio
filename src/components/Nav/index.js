@@ -36,14 +36,14 @@ function Navigation(props) {
             Portfolio
           </a>
         </li>
-        <li>
+        {/* <li>
           <a
             className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8'
             href='#contact'
             onClick={() => handlePageChange('Contact')}>
             Contact
           </a>
-        </li>
+        </li> */}
         <li>
           <a
             className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8'
