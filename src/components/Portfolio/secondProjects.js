@@ -5,6 +5,7 @@ import FOODr from '../../assets/images/project-images/FOODr.png';
 import README_Pro from '../../assets/images/project-images/README_Pro.png';
 import Team_Builder from '../../assets/images/project-images/Team_Builder.png';
 import Staff_Tracker from '../../assets/images/project-images/Staff_Tracker.png';
+import noteTaker from '../../assets/images/project-images/note-taker.png';
 
 function Portfolio() {
   return (
@@ -12,7 +13,8 @@ function Portfolio() {
       <div>
         <h3 className='text-3xl py-1 dark:text-white'>Projects</h3>
         <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>
-          Check out some projects I've worked on!
+          Check out some projects I've worked on in the portfolio section during
+          the past six months!
         </p>
       </div>
       <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
