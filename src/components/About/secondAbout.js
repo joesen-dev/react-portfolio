@@ -1,6 +1,6 @@
 import React from 'react';
-import design from '../../assets/design.png';
-import code from '../../assets/code.png';
+import design from '../public/design.png';
+import code from '../public/code.png';
 
 function About() {
   return (
@@ -11,9 +11,9 @@ function About() {
           Hi, I'm Joseph. I'm a Full Stack Developer interested in software
           development with a certificate in Full Stack Development from the
           University of Carleton. Have a peek around and feel free to contact me
-          on <span className='text-teal-500'>LinkedIn</span>. My{' '}
-          <span className='text-teal-500'>resume</span> is also available for
-          download in this portfolio's "resume" section. Have fun!
+          on <span className='text-teal-500'>LinkedIn</span> if you like what
+          you see. My <span className='text-teal-500'>resume</span> is also
+          available for download in this portfolio's "resume" section. Have fun!
         </p>
       </div>
       <div className='lg:flex gap-10'>
