@@ -10,12 +10,14 @@ function Resume() {
         <h3 className='text-3xl py-1 dark:text-white'>Resume</h3>
       </div>
       <span>
-        Download my{' '}
-        <span className='text-teal-500'>
-          <a href={resume} download>
-            resume
-          </a>
-        </span>
+        <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>
+          Download my{' '}
+          <span className='text-teal-500'>
+            <a href={resume} download>
+              resume
+            </a>
+          </span>
+        </p>
       </span>
       <div className='lg:flex gap-10'>
         {/* FRONT-END */}

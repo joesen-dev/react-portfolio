@@ -1,9 +1,13 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useContext } from 'react';
 import { BsFillMoonStarsFill } from 'react-icons/bs';
+import { DarkModeContext } from '../../utils/DarkModeContext';
 
 function Navigation(props) {
   const { currentPage, handlePageChange } = props;
-  const [darkMode, setDarkMode] = useState(false);
+  const { darkMode, toggleDarkMode } = useContext(DarkModeContext);
+  const handleClick = () => {
+    toggleDarkMode();
+  };
   useEffect(() => {
     document.title = `${currentPage}`;
   }, [currentPage]);
@@ -16,7 +20,7 @@ function Navigation(props) {
       <ul className='flex items-center'>
         <li>
           <BsFillMoonStarsFill
-            onClick={() => setDarkMode(!darkMode)}
+            onClick={handleClick}
             className='cursor-pointer text-2xl max-w-lg mx-auto dark:text-white'
           />
         </li>
