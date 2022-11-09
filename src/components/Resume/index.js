@@ -12,7 +12,7 @@ function Resume() {
       <span>
         <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>
           Download my{' '}
-          <span className='text-teal-500'>
+          <span className='text-red-500'>
             <a href={resume} download>
               resume
             </a>
@@ -31,7 +31,7 @@ function Resume() {
             }}
             alt=''
           />
-          <h3 className='text-lg fonr-medium pt-8 pb-2 text-teal-600'>
+          <h3 className='text-lg font-medium pt-8 pb-2 text-red-600'>
             Front-end Proficiencies
           </h3>
           <p className='text-gray-800 py-1'>HTML</p>
@@ -53,7 +53,7 @@ function Resume() {
             }}
             alt=''
           />
-          <h3 className='text-lg fonr-medium pt-8 pb-2 text-teal-600'>
+          <h3 className='text-lg font-medium pt-8 pb-2 text-red-600'>
             Back-end Proficiencies
           </h3>
           <p className='text-gray-800 py-1'>REST APIs</p>

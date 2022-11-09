@@ -11,8 +11,8 @@ function About() {
           Hi, I'm Joseph. I'm a Full Stack Developer interested in software
           development with a certificate in Full Stack Development from the
           University of Carleton. Have a peek around and feel free to contact me
-          on <span className='text-teal-500'>LinkedIn</span>. My{' '}
-          <span className='text-teal-500'>resume</span> is also available for
+          on <span className='text-red-500'>LinkedIn</span>. My{' '}
+          <span className='text-red-500'>resume</span> is also available for
           download in this portfolio's "resume" section. Have fun!
         </p>
       </div>
@@ -28,7 +28,7 @@ function About() {
             }}
             alt=''
           />
-          <h3 className='text-lg fonr-medium pt-8 pb-2 text-teal-600'>
+          <h3 className='text-lg font-medium pt-8 pb-2 text-red-600'>
             Front-end Proficiencies
           </h3>
           <p className='text-gray-800 py-1'>HTML</p>
@@ -50,7 +50,7 @@ function About() {
             }}
             alt=''
           />
-          <h3 className='text-lg fonr-medium pt-8 pb-2 text-teal-600'>
+          <h3 className='text-lg font-medium pt-8 pb-2 text-red-600'>
             Back-end Proficiencies
           </h3>
           <p className='text-gray-800 py-1'>REST APIs</p>
