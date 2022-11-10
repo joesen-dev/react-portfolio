@@ -12,8 +12,6 @@ function Navigation(props) {
     toggleDarkMode();
   };
 
-  // Hamburger toggle
-
   useEffect(() => {
     document.title = `${currentPage}`;
   }, [currentPage]);
@@ -63,7 +61,7 @@ function Navigation(props) {
             </li>
             <li className='my-8'>
               <a
-                className='bg-gradient-to-r from-red-200 to-red-400 text-white px-4 py-2 rounded-md'
+                className='bg-gradient-to-r from-orange-400 to-red-500 text-white px-4 py-2 rounded-md'
                 href='#about'
                 onClick={() => handlePageChange('About')}>
                 About
@@ -71,7 +69,7 @@ function Navigation(props) {
             </li>
             <li className='my-8'>
               <a
-                className='bg-gradient-to-r from-red-200 to-red-400 text-white px-4 py-2 rounded-md'
+                className='bg-gradient-to-r from-orange-400 to-red-500 text-white px-4 py-2 rounded-md'
                 href='#portfolio'
                 onClick={() => handlePageChange('Portfolio')}>
                 Portfolio
@@ -79,7 +77,7 @@ function Navigation(props) {
             </li>
             <li className='my-8'>
               <a
-                className='bg-gradient-to-r from-red-200 to-red-400 text-white px-4 py-2 rounded-md'
+                className='bg-gradient-to-r from-orange-400 to-red-500 text-white px-4 py-2 rounded-md'
                 href='#resume'
                 onClick={() => handlePageChange('Resume')}>
                 Resume
@@ -98,8 +96,7 @@ function Navigation(props) {
         </li>
         <li>
           <a
-            // className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8'
-            className='bg-gradient-to-r from-red-200 to-red-400 text-white px-4 py-2 rounded-md ml-8'
+            className='bg-gradient-to-r from-orange-400 to-red-500 text-white px-4 py-2 rounded-md ml-8'
             href='#about'
             onClick={() => handlePageChange('About')}>
             About
@@ -107,8 +104,7 @@ function Navigation(props) {
         </li>
         <li>
           <a
-            // className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8'
-            className='bg-gradient-to-r from-red-200 to-red-400 text-white px-4 py-2 rounded-md ml-8'
+            className='bg-gradient-to-r from-orange-400 to-red-500 text-white px-4 py-2 rounded-md ml-8'
             href='#portfolio'
             onClick={() => handlePageChange('Portfolio')}>
             Portfolio
@@ -124,8 +120,7 @@ function Navigation(props) {
         </li> */}
         <li>
           <a
-            // className='bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8'
-            className='bg-gradient-to-r from-red-200 to-red-400 text-white px-4 py-2 rounded-md ml-8'
+            className='bg-gradient-to-r from-orange-400 to-red-500 text-white px-4 py-2 rounded-md ml-8'
             href='#resume'
             onClick={() => handlePageChange('Resume')}>
             Resume
