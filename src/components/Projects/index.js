@@ -83,6 +83,7 @@ function Projects() {
           </div>
         </div>
         <div className='basis-1/3 flex-1 relative'>
+          {/* TODO: get an updated screenshot */}
           <img
             className='rounded-lg object-cover'
             width={'100%'}
@@ -91,12 +92,12 @@ function Projects() {
             alt=''
             src={README_Pro}
           />
-          <div className='grid grid-cols-1 bg-gradient-to-b from-red-400 opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 items-center md:text-xl text-sm pt-8 pb-2 px-8 text-white font-semibold'>
+          <div className='grid grid-cols-1 bg-gradient-to-b from-red-400 opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 md:text-xl text-sm pt-2 pb-2 px-8 text-white font-semibold'>
             <p>
               The README generator is designed to streamline creating
               Professional README files for developers
             </p>
-            <div className='text-5xl flex justify-center gap-16 py-3 text-white dark:text-gray-400'>
+            <div className='text-5xl flex justify-center gap-16 py-2 text-white dark:text-gray-400'>
               <a href='https://github.com/joesen-dev/readme-pro'>
                 <AiFillGithub />
               </a>
