@@ -19,8 +19,12 @@ function Banner() {
         </p>
       </div>
       <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400'>
-        <AiFillLinkedin />
-        <AiFillGithub />
+        <a href='https://www.linkedin.com/in/josephsenyonga418245213/'>
+          <AiFillLinkedin />
+        </a>
+        <a href='https://github.com/joesen-dev'>
+          <AiFillGithub />
+        </a>
       </div>
       <div className='relative mx-auto bg-gradient-to-b from-red-400 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96'>
         <img src={headshot} className='headshot' alt='An avatar of Joseph' />
