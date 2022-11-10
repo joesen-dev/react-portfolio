@@ -32,7 +32,7 @@ function Projects() {
               health by adding workouts to your calendar and tracking your
               progress over the months. So start your journey today!
             </p>
-            <div className='text-5xl flex justify-center gap-16 py-3 text-white dark:text-gray-400'>
+            <div className='text-5xl flex justify-center gap-16 py-3 text-white '>
               <a href='https://github.com/leunggerry/personal-health-tracker'>
                 <AiFillGithub />
               </a>
@@ -54,7 +54,7 @@ function Projects() {
               projects and solicit help from other developers looking to build
               their portfolios.
             </p>
-            <div className='text-5xl flex justify-center gap-16 py-3 text-white dark:text-gray-400'>
+            <div className='text-5xl flex justify-center gap-16 py-3 text-white '>
               <a href='https://github.com/joesen-dev/git-social'>
                 <AiFillGithub />
               </a>
@@ -75,7 +75,7 @@ function Projects() {
               FOODr is a recommendation app that suggests local restaurants near
               the user.
             </p>
-            <div className='text-5xl flex justify-center gap-16 py-3 text-white dark:text-gray-400'>
+            <div className='text-5xl flex justify-center gap-16 py-3 text-white '>
               <a href='https://github.com/joesen-dev/projectAwesome'>
                 <AiFillGithub />
               </a>
@@ -97,7 +97,7 @@ function Projects() {
               The README generator is designed to streamline creating
               Professional README files for developers
             </p>
-            <div className='text-5xl flex justify-center gap-16 py-2 text-white dark:text-gray-400'>
+            <div className='text-5xl flex justify-center gap-16 py-2 text-white '>
               <a href='https://github.com/joesen-dev/readme-pro'>
                 <AiFillGithub />
               </a>
@@ -118,7 +118,7 @@ function Projects() {
               View and manage the the departments, roles, and employees in your
               company in the command line with Staff Tracker.
             </p>
-            <div className='text-5xl flex justify-center gap-16 py-3 text-white dark:text-gray-400'>
+            <div className='text-5xl flex justify-center gap-16 py-3 text-white '>
               <a href='https://github.com/joesen-dev/staff-tracker'>
                 <AiFillGithub />
               </a>
@@ -139,7 +139,7 @@ function Projects() {
               A command line application that takes user input and builds a
               webpage with the team's basic information.
             </p>
-            <div className='text-5xl flex justify-center gap-16 py-3 text-white dark:text-gray-400'>
+            <div className='text-5xl flex justify-center gap-16 py-3 text-white '>
               <a href='https://github.com/joesen-dev/team-builder'>
                 <AiFillGithub />
               </a>
