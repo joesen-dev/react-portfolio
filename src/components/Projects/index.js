@@ -1,4 +1,5 @@
 import React from 'react';
+import { AiFillGithub } from 'react-icons/ai';
 import Capstone from '../../assets/images/project-images/Capstone.png';
 import Git_Social from '../../assets/images/project-images/Git_social.png';
 import FOODr from '../../assets/images/project-images/FOODr.png';
@@ -16,13 +17,6 @@ function Projects() {
         </p>
       </div>
       <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
-        {/* <div className='w-64 h-64 bg-red-100 relative'>
-          <div className='absolute inset-0 bg-cover bg-center z-0'></div>
-          <div className='opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex justify-center items-center text-6xl text-white font-semibold'>
-            Dwayne
-          </div>
-        </div> */}
-
         <div className=' basis-1/3 flex-1 relative'>
           <img
             className='rounded-lg object-cover'
@@ -32,10 +26,17 @@ function Projects() {
             alt=''
             src={Capstone}
           />
-          <div className='bg-gradient-to-b from-red-400 opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex justify-center md:text-2xl text-sm pt-8 pb-2 px-8 text-white font-semibold'>
-            This daily workout tracker will help you maintain your physical
-            health by adding workouts to your calendar and tracking your
-            progress over the months. So start your journey today!
+          <div className='grid grid-cols-1 bg-gradient-to-b from-red-400 opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 flex justify-center md:text-2xl text-sm pt-8 pb-2 px-8 text-white font-semibold'>
+            <p>
+              This daily workout tracker will help you maintain your physical
+              health by adding workouts to your calendar and tracking your
+              progress over the months. So start your journey today!
+            </p>
+            <div className='text-5xl flex justify-center gap-16 py-3 text-white dark:text-gray-400'>
+              <a href='https://github.com/leunggerry/personal-health-tracker'>
+                <AiFillGithub />
+              </a>
+            </div>
           </div>
         </div>
         <div className='basis-1/3 flex-1'>
