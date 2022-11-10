@@ -10,13 +10,13 @@ function Footer() {
       <div className='flex mt-4 space-x-6 sm:justify-center sm:mt-0'>
         <a
           href='https://www.linkedin.com/in/josephsenyonga418245213/'
-          className='text-gray-500 hover:text-gray-900 dark:hover:text-white'>
+          className='text-gray-600 hover:text-gray-900 dark:hover:text-white'>
           <AiFillLinkedin />
           <span className='sr-only'>LinkedIn page</span>
         </a>
         <a
           href='https://github.com/joesen-dev'
-          className='text-gray-500 hover:text-gray-900 dark:hover:text-white'>
+          className='text-gray-600 hover:text-gray-900 dark:hover:text-white'>
           <AiFillGithub />
           <span className='sr-only'>GitHub account</span>
         </a>

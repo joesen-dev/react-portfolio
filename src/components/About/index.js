@@ -11,9 +11,14 @@ function About() {
           Hi, I'm Joseph. I'm a Full Stack Developer interested in software
           development with a certificate in Full Stack Development from the
           University of Carleton. Have a peek around and feel free to contact me
-          on <span className='text-red-500'>LinkedIn</span>. My{' '}
-          <span className='text-red-500'>resume</span> is also available for
-          download in this portfolio's "resume" section. Have fun!
+          on{' '}
+          <span className='text-red-500'>
+            <a href='https://www.linkedin.com/in/josephsenyonga418245213/'>
+              LinkedIn
+            </a>
+          </span>
+          . My <span className='text-red-500'>resume</span> is also available
+          for download in this portfolio's "resume" section. Have fun!
         </p>
       </div>
       <div className='lg:flex gap-10'>
