@@ -1,42 +1,68 @@
 import React from 'react';
+import design from '../../assets/design.png';
+import code from '../../assets/code.png';
 import resume from '../../assets/Resume-Joseph-Senyonga.pdf';
 
 function Resume() {
   return (
     <section>
       <div>
-        <h2>Resume</h2>
+        <h3 className='text-3xl py-1 dark:text-white'>Resume</h3>
       </div>
       <span>
-        Download my{' '}
-        <a href={resume} download>
-          <button type='button' className='btn btn-success'>
-            resume
-          </button>
-        </a>
+        <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>
+          Download my{' '}
+          <span className='text-red-500'>
+            <a href={resume} download>
+              resume
+            </a>
+          </span>
+        </p>
       </span>
-      <div>
-        <h3>Front-end Proficiencies</h3>
-        <ul className='list-group'>
-          <li className='list-group-item'>HTML</li>
-          <li className='list-group-item'>CSS</li>
-          <li className='list-group-item'>JavaScript</li>
-          <li className='list-group-item'>responsive design</li>
-          <li className='list-group-item'>React</li>
-          <li className='list-group-item'>Bootstrap</li>
-        </ul>
-      </div>
-      <div>
-        <h3>Back-end Proficiencies</h3>
-        <ul className='list-group'>
-          <li className='list-group-item'>APIs</li>
-          <li className='list-group-item'>Node</li>
-          <li className='list-group-item'>Express</li>
-          <li className='list-group-item'>MySQL, Sequelize</li>
-          <li className='list-group-item'>MongoDB, Mongoose</li>
-          <li className='list-group-item'>REST</li>
-          <li className='list-group-item'>GraphQL</li>
-        </ul>
+      <div className='lg:flex gap-10'>
+        {/* FRONT-END */}
+        <div className='text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1'>
+          <img
+            src={design}
+            width={100}
+            height={100}
+            style={{
+              margin: 'auto',
+            }}
+            alt=''
+          />
+          <h3 className='text-lg font-medium pt-8 pb-2 text-red-600'>
+            Front-end Proficiencies
+          </h3>
+          <p className='text-gray-800 py-1'>HTML</p>
+          <p className='text-gray-800 py-1'>CSS</p>
+          <p className='text-gray-800 py-1'>JavaScript</p>
+          <p className='text-gray-800 py-1'>Responsive Design</p>
+          <p className='text-gray-800 py-1'>React</p>
+          <p className='text-gray-800 py-1'>Bootstrap</p>
+        </div>
+
+        {/* BACK-END */}
+        <div className='text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1'>
+          <img
+            src={code}
+            width={100}
+            height={100}
+            style={{
+              margin: 'auto',
+            }}
+            alt=''
+          />
+          <h3 className='text-lg font-medium pt-8 pb-2 text-red-600'>
+            Back-end Proficiencies
+          </h3>
+          <p className='text-gray-800 py-1'>REST APIs</p>
+          <p className='text-gray-800 py-1'>Node</p>
+          <p className='text-gray-800 py-1'>Express</p>
+          <p className='text-gray-800 py-1'>MySQL, Sequelize</p>
+          <p className='text-gray-800 py-1'>MongoDB, Mongoose</p>
+          <p className='text-gray-800 py-1'>GraphQL</p>
+        </div>
       </div>
     </section>
   );

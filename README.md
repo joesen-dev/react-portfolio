@@ -13,17 +13,16 @@ The source code for my single-page <a href="https://joesen-dev.github.io/react-p
 ## Technologies
 
 - React
-- Reactbootstrap
-- Bootstrap
+- Tailwind CSS
 - NodeJS
 
 ## Screenshots
 
-**hero banner(mobile)**
+### Hero banner
 
 ![hero banner](./src/assets/images/screenshots/hero-banner.png)
 
-**Resume page(mobile)**
+### Resume page
 
 ![Resume page](./src/assets/images/screenshots/Resume-page.png)
 

@@ -1,37 +1,45 @@
-import React, { useState } from "react";
-import Navigation from "../Nav";
-import About from "../About";
-import Portfolio from "../Portfolio";
-import Contact from "../Contact";
-import Resume from "../Resume";
-import Footer from "../Footer";
+import React, { useState, useContext } from 'react';
+import Navigation from '../Nav';
+import Banner from '../Banner';
+import About from '../About';
+import Portfolio from '../Portfolio';
+// import Contact from '../Contact';
+import Resume from '../Resume';
+import Footer from '../Footer';
+import { DarkModeContext } from '../../utils/DarkModeContext';
 
 export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState("About");
+  const [currentPage, setCurrentPage] = useState('About');
+  const { darkMode } = useContext(DarkModeContext);
 
   const renderPage = () => {
-    if (currentPage === "About") {
+    if (currentPage === 'About') {
       return <About />;
     }
-    if (currentPage === "Portfolio") {
+    if (currentPage === 'Portfolio') {
       return <Portfolio />;
     }
-    if (currentPage === "Contact") {
-      return <Contact />;
-    }
+    // if (currentPage === 'Contact') {
+    //   return <Contact />;
+    // }
     return <Resume />;
   };
 
   const handlePageChange = page => setCurrentPage(page);
 
   return (
-    <div id="bootstrap-overrides">
-      <Navigation
-        currentPage={currentPage}
-        handlePageChange={handlePageChange}
-      />
-      {renderPage()}
-      <Footer></Footer>
+    <div className={darkMode ? 'dark' : ''}>
+      <main className='bg-white px-10  dark:bg-gray-900 md:px-20 lg:px-40'>
+        <section className='min-h-screen'>
+          <Navigation
+            currentPage={currentPage}
+            handlePageChange={handlePageChange}
+          />
+          <Banner />
+        </section>
+        {renderPage()}
+        <Footer></Footer>
+      </main>
     </div>
   );
 }

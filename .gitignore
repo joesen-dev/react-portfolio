@@ -10,6 +10,10 @@ package-lock.json
 # testing
 /coverage
 
+# next.js
+/.next/
+/out/
+
 # production
 /build
 
@@ -19,8 +23,21 @@ package-lock.json
 .env.development.local
 .env.test.local
 .env.production.local
+*.pem
 misc
 
+# debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.pnpm-debug.log*
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
