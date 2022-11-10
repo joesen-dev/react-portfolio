@@ -70,9 +70,9 @@ function Navigation(props) {
             <li className='my-8'>
               <a
                 className='bg-gradient-to-r from-orange-400 to-red-500 text-white px-4 py-2 rounded-md'
-                href='#portfolio'
-                onClick={() => handlePageChange('Portfolio')}>
-                Portfolio
+                href='#projects'
+                onClick={() => handlePageChange('Projects')}>
+                Projects
               </a>
             </li>
             <li className='my-8'>
@@ -105,9 +105,9 @@ function Navigation(props) {
         <li>
           <a
             className='bg-gradient-to-r from-orange-400 to-red-500 text-white px-4 py-2 rounded-md ml-8'
-            href='#portfolio'
-            onClick={() => handlePageChange('Portfolio')}>
-            Portfolio
+            href='#projects'
+            onClick={() => handlePageChange('Projects')}>
+            Projects
           </a>
         </li>
         {/* <li>
