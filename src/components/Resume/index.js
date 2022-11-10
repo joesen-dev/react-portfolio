@@ -21,7 +21,7 @@ function Resume() {
       </span>
       <div className='lg:flex gap-10'>
         {/* FRONT-END */}
-        <div className='text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1'>
+        <div className='text-center shadow-2xl p-10 rounded-xl my-10  dark:bg-white flex-1'>
           <img
             src={design}
             width={100}
@@ -43,7 +43,7 @@ function Resume() {
         </div>
 
         {/* BACK-END */}
-        <div className='text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1'>
+        <div className='text-center shadow-2xl p-10 rounded-xl my-10  dark:bg-white flex-1'>
           <img
             src={code}
             width={100}
