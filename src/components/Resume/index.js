@@ -5,7 +5,7 @@ import resume from '../../assets/Resume-Joseph-Senyonga.pdf';
 
 function Resume() {
   return (
-    <section>
+    <section section id='resume'>
       <div>
         <h3 className='text-3xl py-1 dark:text-white'>Resume</h3>
       </div>
