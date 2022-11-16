@@ -1,7 +1,7 @@
 import React from 'react';
 import design from '../../assets/design.png';
 import code from '../../assets/code.png';
-import resume from '../../assets/Resume-Joseph-Senyonga.pdf';
+import resume from '../../assets/Joseph_Senyonga_Full-Stack_Developer_Resume.pdf';
 
 function Resume() {
   return (
