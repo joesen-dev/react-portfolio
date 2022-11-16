@@ -19,7 +19,7 @@ function Navigation(props) {
   return (
     <nav className='py-10 mb-12 flex justify-between'>
       <h1 className='text-xl font-burtons dark:text-white'>
-        <a href='/'>Portfolio</a>
+        <a href='/react-portfolio'>Portfolio</a>
       </h1>
 
       {/* Mobile Nav Menu */}
