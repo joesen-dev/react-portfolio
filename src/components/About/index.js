@@ -5,8 +5,8 @@ import soft from '../../assets/soft.png';
 
 function About() {
   return (
-    <section id='about'>
-      <div>
+    <section id='about' className='mt-6 border-t border-slate-200'>
+      <div className='pt-4'>
         <h3 className='text-3xl py-1 dark:text-white'>About Me</h3>
         <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>
           Hi, I'm Joseph. I am a web developer with experience in the medical

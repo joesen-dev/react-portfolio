@@ -9,8 +9,8 @@ import Staff_Tracker from '../../assets/images/project-images/Staff_Tracker.png'
 
 function Projects() {
   return (
-    <section id='projects'>
-      <div>
+    <section id='projects' className='mt-6 border-t border-slate-200'>
+      <div className='pt-4'>
         <h3 className='text-3xl py-1 dark:text-white'>Projects</h3>
         <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>
           Check out some projects I've worked on!
