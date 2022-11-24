@@ -1,17 +1,10 @@
 import React, { useEffect, useContext, useState } from 'react';
 import { BsFillMoonStarsFill } from 'react-icons/bs';
-import { DarkModeContext } from '../../utils/DarkModeContext';
 import DarkModeButton from '../DarkModeButton';
 
 function Navigation(props) {
   const { currentPage, handlePageChange } = props;
-  const { darkMode, toggleDarkMode } = useContext(DarkModeContext);
   const [isNavOpen, setIsNavOpen] = useState(false);
-
-  // Dark mode toggle
-  const handleClick = () => {
-    toggleDarkMode();
-  };
 
   useEffect(() => {
     document.title = `${currentPage}`;
@@ -29,9 +22,9 @@ function Navigation(props) {
           className='HAMBURGER-ICON space-y-2'
           // toggle isNavOpen state on click
           onClick={() => setIsNavOpen(prev => !prev)}>
-          <span className='block h-0.5 w-8 animate-pulse bg-gray-600'></span>
-          <span className='block h-0.5 w-8 animate-pulse bg-gray-600'></span>
-          <span className='block h-0.5 w-8 animate-pulse bg-gray-600'></span>
+          <span className='block h-0.5 w-8 animate-pulse bg-gray-600 dark:bg-white'></span>
+          <span className='block h-0.5 w-8 animate-pulse bg-gray-600 dark:bg-white'></span>
+          <span className='block h-0.5 w-8 animate-pulse bg-gray-600 dark:bg-white'></span>
         </div>
 
         <div
@@ -42,7 +35,7 @@ function Navigation(props) {
             // change isNavOpen state to false to close the menu
             onClick={() => setIsNavOpen(false)}>
             <svg
-              className='h-8 w-8 text-gray-600'
+              className='h-8 w-8 text-gray-600 dark:text-white'
               viewBox='0 0 24 24'
               fill='none'
               stroke='currentColor'

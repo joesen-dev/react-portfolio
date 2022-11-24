@@ -1,6 +1,7 @@
 import React from 'react';
 import design from '../../assets/design.png';
 import code from '../../assets/code.png';
+import soft from '../../assets/soft.png';
 
 function About() {
   return (
@@ -20,13 +21,13 @@ function About() {
           <span className='text-red-500'>
             <a href='https://www.linkedin.com/in/josephsenyonga38/'>LinkedIn</a>
           </span>
-          . My <span className='text-red-500'>resume</span> is also available
-          for download in this portfolio's <b>resume</b> section. Have fun!
+          . My <b>resume</b> is also available for download in this portfolio's
+          resume section. Have fun!
         </p>
       </div>
       <div className='lg:flex gap-10'>
         {/* FRONT-END */}
-        <div className='text-center shadow-2xl p-10 rounded-xl my-10  dark:bg-white flex-1'>
+        <div className='text-center shadow-2xl p-10 rounded-xl my-10 bg-white border border-gray-200 dark:bg-gray-800 dark:border-gray-700 flex-1'>
           <img
             src={design}
             width={100}
@@ -39,16 +40,17 @@ function About() {
           <h3 className='text-lg font-medium pt-8 pb-2 text-red-600'>
             Front-end Proficiencies
           </h3>
-          <p className='text-gray-800 py-1'>HTML</p>
-          <p className='text-gray-800 py-1'>CSS</p>
-          <p className='text-gray-800 py-1'>JavaScript</p>
-          <p className='text-gray-800 py-1'>Responsive Design</p>
-          <p className='text-gray-800 py-1'>React</p>
-          <p className='text-gray-800 py-1'>Bootstrap</p>
+          <div className='text-gray-800 py-1 dark:text-white'>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>JavaScript</p>
+            <p>Responsive Design</p>
+            <p>React</p>
+            <p>Bootstrap</p>
+          </div>
         </div>
-
         {/* BACK-END */}
-        <div className='text-center shadow-2xl p-10 rounded-xl my-10  dark:bg-white flex-1'>
+        <div className='text-center shadow-2xl p-10 rounded-xl my-10 bg-white border border-gray-200 dark:bg-gray-800 dark:border-gray-700 flex-1'>
           <img
             src={code}
             width={100}
@@ -61,12 +63,37 @@ function About() {
           <h3 className='text-lg font-medium pt-8 pb-2 text-red-600'>
             Back-end Proficiencies
           </h3>
-          <p className='text-gray-800 py-1'>REST APIs</p>
-          <p className='text-gray-800 py-1'>Node</p>
-          <p className='text-gray-800 py-1'>Express</p>
-          <p className='text-gray-800 py-1'>MySQL, Sequelize</p>
-          <p className='text-gray-800 py-1'>MongoDB, Mongoose</p>
-          <p className='text-gray-800 py-1'>GraphQL</p>
+          <div className='text-gray-800 py-1 dark:text-white'>
+            <p>REST APIs</p>
+            <p>Node</p>
+            <p>Express</p>
+            <p>MySQL, Sequelize</p>
+            <p>MongoDB, Mongoose</p>
+            <p>GraphQL</p>
+          </div>
+        </div>
+        {/* Soft Skills */}
+        <div className='text-center shadow-2xl p-10 rounded-xl my-10 bg-white border border-gray-200 dark:bg-gray-800 dark:border-gray-700 flex-1'>
+          <img
+            src={soft}
+            width={100}
+            height={100}
+            style={{
+              margin: 'auto',
+            }}
+            alt=''
+          />
+          <h3 className='text-lg font-medium pt-8 pb-2 text-red-600'>
+            Soft Skills
+          </h3>
+          <div className='text-gray-800 py-1 dark:text-white'>
+            <p>Problem Solving</p>
+            <p>Communication</p>
+            <p>Collaboration</p>
+            <p>Persuasion </p>
+            <p>Adaptability</p>
+            <p>Time Management</p>
+          </div>
         </div>
       </div>
     </section>

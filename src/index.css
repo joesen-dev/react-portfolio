@@ -70,7 +70,12 @@ a {
   height: 100vh;
   top: 0;
   left: 0;
-  background: #938486ff;
+  /* Glass background */
+  background: rgba(150, 156, 174, 0.45);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.3px);
+  -webkit-backdrop-filter: blur(6.3px);
+  /* ---- */
   z-index: 10;
   display: flex;
   flex-direction: column;
