@@ -9,7 +9,7 @@ function Footer() {
       </span>
       <div className='flex mt-4 space-x-6 sm:justify-center sm:mt-0'>
         <a
-          href='https://www.linkedin.com/in/josephsenyonga418245213/'
+          href='https://www.linkedin.com/in/josephsenyonga38/'
           className='text-gray-600 hover:text-gray-900 dark:hover:text-white'>
           <AiFillLinkedin />
           <span className='sr-only'>LinkedIn page</span>

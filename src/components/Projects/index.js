@@ -29,8 +29,8 @@ function Projects() {
           <div className='grid grid-cols-1 bg-gradient-to-b from-red-400 opacity-0 hover:opacity-100 duration-300 absolute inset-0 z-10 items-center md:text-xl text-sm pt-8 pb-2 px-8 text-white font-semibold'>
             <p>
               This daily workout tracker will help you maintain your physical
-              health by adding workouts to your calendar and tracking your
-              progress over the months. So start your journey today!
+              health by adding workouts to your dashboard and tracking your
+              progress over the months.
             </p>
             <div className='text-5xl flex justify-center gap-16 py-3 text-white '>
               <a href='https://github.com/leunggerry/personal-health-tracker'>

@@ -8,30 +8,17 @@ function About() {
       <div>
         <h3 className='text-3xl py-1 dark:text-white'>About Me</h3>
         <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-200'>
-          Hi, I'm Joseph. I'm a Full Stack Developer interested in software
-          development with a certificate in Full Stack Web Development from the
-          University of Carleton. I have a background in healthcare, having
-          spent the last six years working in this field. I've worked in
-          fast-paced, rapidly changing environments. At the same time, I refined
-          my analytical and creative problem-solving skills and delivered
-          high-quality service by responding quickly to client issues and
-          successfully addressing challenging concerns.
-          <br />
-          <br />I recently graduated from the Full Stack Web Development
-          Bootcamp at Carleton University. In six months, I studied and put into
-          regular practice web development concepts, eventually building a fully
-          functional MERN (MongoDB, ExpresJS, React, NodeJS) application with a
-          backend and frontend from the ground up!
-          <br />
-          <br />
-          Have a peek around and make sure to take a look at my <b>
-            projects
-          </b>{' '}
-          page with examples of my work. You can reach me on{' '}
+          Hi, I'm Joseph. I am a web developer with experience in the medical
+          field dedicated to creating better user experiences. I recently
+          graduated from Carleton University with a certificate in full stack
+          web development. I build apps with a mobile-first mindset. I am
+          excited to leverage my background and use my newly acquired skills as
+          part of a team committed to delivering high-quality products and
+          better web experiences. Have a peek around and make sure to take a
+          look at my <b>projects</b> page with examples of my work. You can
+          reach me on{' '}
           <span className='text-red-500'>
-            <a href='https://www.linkedin.com/in/josephsenyonga418245213/'>
-              LinkedIn
-            </a>
+            <a href='https://www.linkedin.com/in/josephsenyonga38/'>LinkedIn</a>
           </span>
           . My <span className='text-red-500'>resume</span> is also available
           for download in this portfolio's <b>resume</b> section. Have fun!

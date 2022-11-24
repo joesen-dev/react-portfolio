@@ -14,8 +14,9 @@ function Banner() {
           Full Stack Developer
         </h3>
         <p className='text-md py-5 leading-8 text-gray-800 md:text-xl dark:text-gray-200'>
-          A developer with the skills and ambition to design complete
-          applications, from the initial concept to the final product.
+          I design and build web applications that are both easy to use and
+          aesthetically pleasing. I aim to create a positive user experience
+          that engages and inspires users.
         </p>
       </div>
       <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400'>
