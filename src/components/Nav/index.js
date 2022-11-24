@@ -1,6 +1,7 @@
 import React, { useEffect, useContext, useState } from 'react';
 import { BsFillMoonStarsFill } from 'react-icons/bs';
 import { DarkModeContext } from '../../utils/DarkModeContext';
+import DarkModeButton from '../DarkModeButton';
 
 function Navigation(props) {
   const { currentPage, handlePageChange } = props;
@@ -54,10 +55,7 @@ function Navigation(props) {
           </div>
           <ul className='MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between min-h-[250px]'>
             <li className='my-8'>
-              <BsFillMoonStarsFill
-                onClick={handleClick}
-                className='cursor-pointer text-2xl max-w-lg mx-auto dark:text-white'
-              />
+              <DarkModeButton />
             </li>
             <li className='my-8'>
               <a
@@ -89,10 +87,7 @@ function Navigation(props) {
 
       <ul className='DESKTOP-MENU hidden space-x-8 lg:flex items-center'>
         <li>
-          <BsFillMoonStarsFill
-            onClick={handleClick}
-            className='cursor-pointer text-2xl max-w-lg mx-auto dark:text-white'
-          />
+          <DarkModeButton />
         </li>
         <li>
           <a
