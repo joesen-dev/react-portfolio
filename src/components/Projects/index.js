@@ -149,7 +149,7 @@ function Projects() {
             </div>
           </div>
         </div>
-        {/* README Pro*/}
+        {/* README Pro */}
         <div className='basis-1/3 flex-1 relative bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700'>
           <img
             className='rounded-t-lg'
@@ -192,7 +192,7 @@ function Projects() {
             </div>
           </div>
         </div>
-        {/* Staff Tracker*/}
+        {/* Staff Tracker */}
         <div className='basis-1/3 flex-1 relative bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700'>
           <img
             className='rounded-t-lg'
@@ -235,7 +235,7 @@ function Projects() {
             </div>
           </div>
         </div>
-        {/* Staff Tracker*/}
+        {/* Note Taker */}
         <div className='basis-1/3 flex-1 relative bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700'>
           <img
             className='rounded-t-lg'
