@@ -247,17 +247,17 @@ function Projects() {
           />
           <div className='p-5'>
             <h5 className='mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white'>
-              Staff Tracker
+              Note Taker
             </h5>
             <p className='mb-3 font-normal text-gray-700 dark:text-gray-400'>
-              View and manage the the departments, roles, and employees in your
-              company in the command line with Staff Tracker.
+              Write and save notes to organize your thoughts and keep track of
+              tasks you need to complete.
             </p>
             <div className='w-full inline-flex justify-between'>
               <a
-                href='https://github.com/joesen-dev/staff-tracker'
+                href='https://note-taker-sen.herokuapp.com/'
                 className='inline-flex items-center font-medium text-blue-600 hover:text-blue-800 dark:text-blue-500 dark:hover:text-blue-700'>
-                Source code
+                Live Link
                 <svg
                   className='w-6 h-6 ml-1'
                   fill='currentColor'
@@ -270,7 +270,7 @@ function Projects() {
                 </svg>
               </a>
               <a
-                href='https://github.com/joesen-dev/staff-tracker'
+                href='https://github.com/joesen-dev/note-taker'
                 className='text-gray-500 text-2xl hover:text-gray-900 dark:hover:text-white'>
                 <AiFillGithub />
                 <span className='sr-only'>GitHub Repository</span>
