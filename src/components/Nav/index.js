@@ -15,7 +15,6 @@ function Navigation(props) {
       <h1 className='text-xl font-burtons dark:text-white'>
         <a href='/react-portfolio'>Portfolio</a>
       </h1>
-
       {/* Mobile Nav Menu */}
       <section className='MOBILE-MENU flex lg:hidden'>
         <div
@@ -46,54 +45,59 @@ function Navigation(props) {
               <line x1='6' y1='6' x2='18' y2='18' />
             </svg>
           </div>
-          <ul className='MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-between min-h-[250px]'>
+          <ul className='MENU-LINK-MOBILE-OPEN flex flex-col items-center justify-around min-h-[250px]'>
             <li className='my-8'>
               <DarkModeButton />
             </li>
-            <li className='my-8'>
-              <a
-                className='bg-gradient-to-r from-orange-400 to-red-500 text-white px-4 py-2 rounded-md'
-                href='#about'
-                onClick={() => handlePageChange('About')}>
-                About
-              </a>
-            </li>
-            <li className='my-8'>
-              <a
-                className='bg-gradient-to-r from-orange-400 to-red-500 text-white px-4 py-2 rounded-md'
-                href='#projects'
-                onClick={() => handlePageChange('Projects')}>
-                Projects
-              </a>
-            </li>
-            <li className='my-8'>
-              <a
-                className='bg-gradient-to-r from-orange-400 to-red-500 text-white px-4 py-2 rounded-md'
-                href='#resume'
-                onClick={() => handlePageChange('Resume')}>
-                Resume
-              </a>
-            </li>
+            <div className='w-full px-3 text-center'>
+              <div className='p-5 xl:px-8 md:py-5'>
+                <li className='my-8'>
+                  <a
+                    href='#about'
+                    className='block w-full py-2 px-4 rounded bg-gradient-to-r from-orange-400 to-red-500 text-white hover:text-gray-900 focus:outline-none transition duration-150 ease-in-out'
+                    onClick={() => handlePageChange('About')}>
+                    About
+                  </a>
+                </li>
+                <li className='my-8'>
+                  <a
+                    href='#projects'
+                    className='block w-full py-2 px-4 rounded bg-gradient-to-r from-orange-400 to-red-500 text-white hover:text-gray-900 focus:outline-none transition duration-150 ease-in-out'
+                    onClick={() => handlePageChange('Projects')}>
+                    Projects
+                  </a>
+                </li>
+                <li className='my-8'>
+                  <a
+                    href='#resume'
+                    className='block w-full py-2 px-4 rounded bg-gradient-to-r from-orange-400 to-red-500 text-white hover:text-gray-900 focus:outline-none transition duration-150 ease-in-out'
+                    onClick={() => handlePageChange('Resume')}>
+                    Resume
+                  </a>
+                </li>
+              </div>
+            </div>
           </ul>
         </div>
       </section>
 
-      <ul className='DESKTOP-MENU hidden space-x-8 lg:flex items-center'>
+      {/* Desktop Nav Menu */}
+      <ul className='DESKTOP-MENU hidden space-x-8 lg:flex items-center justify-around'>
         <li>
           <DarkModeButton />
         </li>
         <li>
           <a
-            className='bg-gradient-to-r from-orange-400 to-red-500 text-white px-4 py-2 rounded-md ml-8'
             href='#about'
+            className='w-full bg-gradient-to-r from-orange-400 to-red-500 text-white px-4 py-2 rounded hover:text-gray-900 focus:outline-none transition duration-150 ease-in-out'
             onClick={() => handlePageChange('About')}>
             About
           </a>
         </li>
         <li>
           <a
-            className='bg-gradient-to-r from-orange-400 to-red-500 text-white px-4 py-2 rounded-md ml-8'
             href='#projects'
+            className='w-full bg-gradient-to-r from-orange-400 to-red-500 text-white px-4 py-2 rounded hover:text-gray-900 focus:outline-none transition duration-150 ease-in-out'
             onClick={() => handlePageChange('Projects')}>
             Projects
           </a>
@@ -108,8 +112,8 @@ function Navigation(props) {
         </li> */}
         <li>
           <a
-            className='bg-gradient-to-r from-orange-400 to-red-500 text-white px-4 py-2 rounded-md ml-8'
             href='#resume'
+            className='w-full bg-gradient-to-r from-orange-400 to-red-500 text-white px-4 py-2 rounded hover:text-gray-900 focus:outline-none transition duration-150 ease-in-out'
             onClick={() => handlePageChange('Resume')}>
             Resume
           </a>
