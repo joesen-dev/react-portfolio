@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.275a5ad5.css",
-    "main.js": "/react-portfolio/static/js/main.ce54047c.js",
+    "main.css": "/react-portfolio/static/css/main.e18491ac.css",
+    "main.js": "/react-portfolio/static/js/main.b2be3a4c.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/soft.png": "/react-portfolio/static/media/soft.3bfd96516a260ad18d61.png",
     "static/media/Capstone.png": "/react-portfolio/static/media/Capstone.319b2b23ecd9c9a71d1d.png",
@@ -11,17 +11,17 @@
     "static/media/Team_Builder.png": "/react-portfolio/static/media/Team_Builder.fbfeff2e00ddaaf6a59d.png",
     "static/media/Staff_Tracker.png": "/react-portfolio/static/media/Staff_Tracker.744deb887d713dc47812.png",
     "static/media/Burtons.otf": "/react-portfolio/static/media/Burtons.c46a2405716f236c4a9a.otf",
-    "static/media/Joseph_Senyonga_Full-Stack_Developer_Resume.pdf": "/react-portfolio/static/media/Joseph_Senyonga_Full-Stack_Developer_Resume.9c5d1aa582ed81662f67.pdf",
+    "static/media/Joseph_Senyonga_Full-Stack_Developer_Resume.pdf": "/react-portfolio/static/media/Joseph_Senyonga_Full-Stack_Developer_Resume.aa206af95a088718501c.pdf",
     "static/media/design.png": "/react-portfolio/static/media/design.9e6ea8290691c7efe827.png",
     "static/media/code.png": "/react-portfolio/static/media/code.f4f54b48494bb8e30d1a.png",
     "static/media/Notes-page.png": "/react-portfolio/static/media/Notes-page.c7fa368f436cf189035b.png",
     "index.html": "/react-portfolio/index.html",
-    "main.275a5ad5.css.map": "/react-portfolio/static/css/main.275a5ad5.css.map",
-    "main.ce54047c.js.map": "/react-portfolio/static/js/main.ce54047c.js.map",
+    "main.e18491ac.css.map": "/react-portfolio/static/css/main.e18491ac.css.map",
+    "main.b2be3a4c.js.map": "/react-portfolio/static/js/main.b2be3a4c.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.275a5ad5.css",
-    "static/js/main.ce54047c.js"
+    "static/css/main.e18491ac.css",
+    "static/js/main.b2be3a4c.js"
   ]
 }
