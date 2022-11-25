@@ -20,10 +20,14 @@ function Banner() {
         </p>
       </div>
       <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400'>
-        <a href='https://www.linkedin.com/in/josephsenyonga38/'>
+        <a
+          href='https://www.linkedin.com/in/josephsenyonga38/'
+          className='hover:text-gray-900 dark:hover:text-white'>
           <AiFillLinkedin />
         </a>
-        <a href='https://github.com/joesen-dev'>
+        <a
+          href='https://github.com/joesen-dev'
+          className='hover:text-gray-900 dark:hover:text-white'>
           <AiFillGithub />
         </a>
       </div>

@@ -27,7 +27,7 @@ function About() {
       </div>
       <div className='lg:flex gap-10'>
         {/* FRONT-END */}
-        <div className='text-center shadow-2xl p-10 rounded-xl my-10 bg-white border border-gray-200 dark:bg-gray-800 dark:border-gray-700 flex-1'>
+        <div className='text-center shadow-2xl p-10 rounded-xl my-10 bg-white hover:bg-gradient-to-br hover:from-purple-400 hover:via-blue-400 hover:to-blue-500 border border-gray-200 dark:bg-gray-800 dark:border-gray-700 flex-1'>
           <img
             src={design}
             width={100}
@@ -50,7 +50,7 @@ function About() {
           </div>
         </div>
         {/* BACK-END */}
-        <div className='text-center shadow-2xl p-10 rounded-xl my-10 bg-white border border-gray-200 dark:bg-gray-800 dark:border-gray-700 flex-1'>
+        <div className='text-center shadow-2xl p-10 rounded-xl my-10 bg-white hover:bg-gradient-to-br hover:from-purple-400 hover:via-blue-400 hover:to-blue-500 border border-gray-200 dark:bg-gray-800 dark:border-gray-700 flex-1'>
           <img
             src={code}
             width={100}
@@ -73,7 +73,7 @@ function About() {
           </div>
         </div>
         {/* Soft Skills */}
-        <div className='text-center shadow-2xl p-10 rounded-xl my-10 bg-white border border-gray-200 dark:bg-gray-800 dark:border-gray-700 flex-1'>
+        <div className='text-center shadow-2xl p-10 rounded-xl my-10 bg-white hover:bg-gradient-to-br hover:from-purple-400 hover:via-blue-400 hover:to-blue-500 border border-gray-200 dark:bg-gray-800 dark:border-gray-700 flex-1'>
           <img
             src={soft}
             width={100}
