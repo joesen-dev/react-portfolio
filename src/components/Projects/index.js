@@ -36,6 +36,43 @@ function Projects() {
               health by adding workouts to your dashboard and tracking your
               progress over the months.
             </p>
+            <div className='container mx-auto py-4'>
+              <details className='shadow-inner bg-gray-50 dark:bg-gray-600 rounded group mb-4'>
+                <summary className='list-none flex flex-wrap items-center cursor-pointer focus-visible:outline-none focus-visible:ring focus-visible:ring-red-400 rounded group-open:rounded-b-none group-open:z-[1]'>
+                  <h3 className='flex flex-1 p-4 font-semibold dark:text-white'>
+                    Built with
+                  </h3>
+                  <div className='flex w-10 items-center justify-center'>
+                    <div className='border-8 border-transparent border-l-gray-600 dark:border-l-gray-900 ml-2 group-open:rotate-90 transition-transform origin-left'></div>
+                  </div>
+                </summary>
+                <div
+                  className='p-4 bg-gradient-to-br from-purple-400 via-blue-400 to-blue-500 text-gray-700 dark:text-gray-900'
+                  id='scroll-container'>
+                  <div id='scroll-text' className='font-medium'>
+                    React{' '}
+                    <span className='text-white text-lg font-bold'>|</span>{' '}
+                    Tailwind CSS{' '}
+                    <span className='text-white text-lg font-bold'>|</span>{' '}
+                    ExpressJS{' '}
+                    <span className='text-white text-lg font-bold'>|</span>{' '}
+                    Apollo{' '}
+                    <span className='text-white text-lg font-bold'>|</span>{' '}
+                    GraphQL{' '}
+                    <span className='text-white text-lg font-bold'>|</span>{' '}
+                    MongoDB{' '}
+                    <span className='text-white text-lg font-bold'>|</span>{' '}
+                    Mongoose{' '}
+                    <span className='text-white text-lg font-bold'>|</span>{' '}
+                    Heroku{' '}
+                    <span className='text-white text-lg font-bold'>|</span> Json
+                    Web Tokens{' '}
+                    <span className='text-white text-lg font-bold'>|</span>{' '}
+                    Bycrpt
+                  </div>
+                </div>
+              </details>
+            </div>
             <div className='w-full inline-flex justify-between'>
               <a
                 href='https://whispering-hamlet-84520.herokuapp.com/'
@@ -80,6 +117,45 @@ function Projects() {
               projects and solicit help from other developers looking to build
               their portfolios.
             </p>
+            <div className='container mx-auto py-4'>
+              <details className='shadow-inner bg-gray-50 dark:bg-gray-600 rounded group mb-4'>
+                <summary className='list-none flex flex-wrap items-center cursor-pointer focus-visible:outline-none focus-visible:ring focus-visible:ring-red-400 rounded group-open:rounded-b-none group-open:z-[1]'>
+                  <h3 className='flex flex-1 p-4 font-semibold dark:text-white'>
+                    Built with
+                  </h3>
+                  <div className='flex w-10 items-center justify-center'>
+                    <div className='border-8 border-transparent border-l-gray-600 dark:border-l-gray-900 ml-2 group-open:rotate-90 transition-transform origin-left'></div>
+                  </div>
+                </summary>
+                <div
+                  className='p-4 bg-gradient-to-br from-purple-400 via-blue-400 to-blue-500 text-gray-700 dark:text-gray-900'
+                  id='scroll-container'>
+                  <div id='scroll-text' className='font-medium'>
+                    Handlbars{' '}
+                    <span className='text-white text-lg font-semibold'>|</span>{' '}
+                    ExpressJS{' '}
+                    <span className='text-white text-lg font-semibold'>|</span>{' '}
+                    Sequelize{' '}
+                    <span className='text-white text-lg font-semibold'>|</span>{' '}
+                    MySQL{' '}
+                    <span className='text-white text-lg font-semibold'>|</span>{' '}
+                    Materialize{' '}
+                    <span className='text-white text-lg font-semibold'>|</span>{' '}
+                    JSdocs{' '}
+                    <span className='text-white text-lg font-semibold'>|</span>{' '}
+                    Radix Icons{' '}
+                    <span className='text-white text-lg font-semibold'>|</span>{' '}
+                    Bcrypt{' '}
+                    <span className='text-white text-lg font-semibold'>|</span>{' '}
+                    Heroku{' '}
+                    <span className='text-white text-lg font-semibold'>|</span>{' '}
+                    Jest{' '}
+                    <span className='text-white text-lg font-semibold'>|</span>{' '}
+                    Bycrpt
+                  </div>
+                </div>
+              </details>
+            </div>
             <div className='w-full inline-flex justify-between'>
               <a
                 href='https://pacific-taiga-17313.herokuapp.com/'
@@ -124,6 +200,43 @@ function Projects() {
               that takes user input and generates a basic web page with their
               team.
             </p>
+            <div className='container mx-auto py-4'>
+              <details className='shadow-inner bg-gray-50 dark:bg-gray-600 rounded group mb-4'>
+                <summary className='list-none flex flex-wrap items-center cursor-pointer focus-visible:outline-none focus-visible:ring focus-visible:ring-red-400 rounded group-open:rounded-b-none group-open:z-[1]'>
+                  <h3 className='flex flex-1 p-4 font-semibold dark:text-white'>
+                    Built with
+                  </h3>
+                  <div className='flex w-10 items-center justify-center'>
+                    <div className='border-8 border-transparent border-l-gray-600 dark:border-l-gray-900 ml-2 group-open:rotate-90 transition-transform origin-left'></div>
+                  </div>
+                </summary>
+                <div
+                  className='p-4 bg-gradient-to-br from-purple-400 via-blue-400 to-blue-500 text-gray-700 dark:text-gray-900'
+                  id='scroll-container'>
+                  <div id='scroll-text' className='font-medium'>
+                    NodeJS{' '}
+                    <span className='text-white text-lg font-semibold'>|</span>{' '}
+                    Inquirer{' '}
+                    <span className='text-white text-lg font-semibold'>|</span>{' '}
+                    HTML{' '}
+                    <span className='text-white text-lg font-semibold'>|</span>{' '}
+                    CSS{' '}
+                    <span className='text-white text-lg font-semibold'>|</span>{' '}
+                    JavaScript{' '}
+                    <span className='text-white text-lg font-semibold'>|</span>{' '}
+                    Bootstrap{' '}
+                    <span className='text-white text-lg font-semibold'>|</span>{' '}
+                    Bcrypt{' '}
+                    <span className='text-white text-lg font-semibold'>|</span>{' '}
+                    Heroku{' '}
+                    <span className='text-white text-lg font-semibold'>|</span>{' '}
+                    Jest{' '}
+                    <span className='text-white text-lg font-semibold'>|</span>{' '}
+                    Bycrpt
+                  </div>
+                </div>
+              </details>
+            </div>
             <div className='w-full inline-flex justify-between'>
               <a
                 href='https://github.com/joesen-dev/team-builder'
@@ -149,7 +262,7 @@ function Projects() {
             </div>
           </div>
         </div>
-        {/* README Pro*/}
+        {/* README Pro */}
         <div className='basis-1/3 flex-1 relative bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700'>
           <img
             className='rounded-t-lg'
@@ -167,6 +280,34 @@ function Projects() {
               The README generator is designed to streamline creating
               Professional README files for developers
             </p>
+            <div className='container mx-auto py-4'>
+              <details className='shadow-inner bg-gray-50 dark:bg-gray-600 rounded group mb-4'>
+                <summary className='list-none flex flex-wrap items-center cursor-pointer focus-visible:outline-none focus-visible:ring focus-visible:ring-red-400 rounded group-open:rounded-b-none group-open:z-[1]'>
+                  <h3 className='flex flex-1 p-4 font-semibold dark:text-white'>
+                    Built with
+                  </h3>
+                  <div className='flex w-10 items-center justify-center'>
+                    <div className='border-8 border-transparent border-l-gray-600 dark:border-l-gray-900 ml-2 group-open:rotate-90 transition-transform origin-left'></div>
+                  </div>
+                </summary>
+                <div
+                  className='p-4 bg-gradient-to-br from-purple-400 via-blue-400 to-blue-500 text-gray-700 dark:text-gray-900'
+                  id='scroll-container'>
+                  <div id='scroll-text' className='font-medium'>
+                    NodeJS{' '}
+                    <span className='text-white text-lg font-semibold'>|</span>{' '}
+                    Inquirer{' '}
+                    <span className='text-white text-lg font-semibold'>|</span>{' '}
+                    Jest
+                    <span className='text-white text-lg font-semibold'>
+                      {' '}
+                      |
+                    </span>{' '}
+                    JavaScript
+                  </div>
+                </div>
+              </details>
+            </div>
             <div className='w-full inline-flex justify-between'>
               <a
                 href='https://github.com/joesen-dev/readme-pro'
@@ -192,7 +333,7 @@ function Projects() {
             </div>
           </div>
         </div>
-        {/* Staff Tracker*/}
+        {/* Staff Tracker */}
         <div className='basis-1/3 flex-1 relative bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700'>
           <img
             className='rounded-t-lg'
@@ -210,6 +351,37 @@ function Projects() {
               View and manage the the departments, roles, and employees in your
               company in the command line with Staff Tracker.
             </p>
+            <div className='container mx-auto py-4'>
+              <details className='shadow-inner bg-gray-50 dark:bg-gray-600 rounded group mb-4'>
+                <summary className='list-none flex flex-wrap items-center cursor-pointer focus-visible:outline-none focus-visible:ring focus-visible:ring-red-400 rounded group-open:rounded-b-none group-open:z-[1]'>
+                  <h3 className='flex flex-1 p-4 font-semibold dark:text-white'>
+                    Built with
+                  </h3>
+                  <div className='flex w-10 items-center justify-center'>
+                    <div className='border-8 border-transparent border-l-gray-600 dark:border-l-gray-900 ml-2 group-open:rotate-90 transition-transform origin-left'></div>
+                  </div>
+                </summary>
+                <div
+                  className='p-4 bg-gradient-to-br from-purple-400 via-blue-400 to-blue-500 text-gray-700 dark:text-gray-900'
+                  id='scroll-container'>
+                  <div id='scroll-text' className='font-medium'>
+                    MySQL{' '}
+                    <span className='text-white text-lg font-semibold'>|</span>{' '}
+                    NodeJS{' '}
+                    <span className='text-white text-lg font-semibold'>|</span>{' '}
+                    Inquirer{' '}
+                    <span className='text-white text-lg font-semibold'>|</span>{' '}
+                    ExpressJS{' '}
+                    <span className='text-white text-lg font-semibold'>|</span>{' '}
+                    Jest{' '}
+                    <span className='text-white text-lg font-semibold'>|</span>{' '}
+                    console.table{' '}
+                    <span className='text-white text-lg font-semibold'>|</span>{' '}
+                    JavaScript
+                  </div>
+                </div>
+              </details>
+            </div>
             <div className='w-full inline-flex justify-between'>
               <a
                 href='https://github.com/joesen-dev/staff-tracker'
@@ -235,7 +407,7 @@ function Projects() {
             </div>
           </div>
         </div>
-        {/* Staff Tracker*/}
+        {/* Note Taker */}
         <div className='basis-1/3 flex-1 relative bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700'>
           <img
             className='rounded-t-lg'
@@ -253,6 +425,39 @@ function Projects() {
               Write and save notes to organize your thoughts and keep track of
               tasks you need to complete.
             </p>
+            <div className='container mx-auto py-4'>
+              <details className='shadow-inner bg-gray-50 dark:bg-gray-600 rounded group mb-4'>
+                <summary className='list-none flex flex-wrap items-center cursor-pointer focus-visible:outline-none focus-visible:ring focus-visible:ring-red-400 rounded group-open:rounded-b-none group-open:z-[1]'>
+                  <h3 className='flex flex-1 p-4 font-semibold dark:text-white'>
+                    Built with
+                  </h3>
+                  <div className='flex w-10 items-center justify-center'>
+                    <div className='border-8 border-transparent border-l-gray-600 dark:border-l-gray-900 ml-2 group-open:rotate-90 transition-transform origin-left'></div>
+                  </div>
+                </summary>
+                <div
+                  className='p-4 bg-gradient-to-br from-purple-400 via-blue-400 to-blue-500 text-gray-700 dark:text-gray-900'
+                  id='scroll-container'>
+                  <div id='scroll-text' className='font-medium'>
+                    NodeJS{' '}
+                    <span className='text-white text-lg font-semibold'>|</span>{' '}
+                    ExpressJS{' '}
+                    <span className='text-white text-lg font-semibold'>|</span>{' '}
+                    Universally Unique Identifier (UUID){' '}
+                    <span className='text-white text-lg font-semibold'>|</span>{' '}
+                    Heroku{' '}
+                    <span className='text-white text-lg font-semibold'>|</span>{' '}
+                    Jest{' '}
+                    <span className='text-white text-lg font-semibold'>|</span>{' '}
+                    HTML{' '}
+                    <span className='text-white text-lg font-semibold'>|</span>{' '}
+                    CSS{' '}
+                    <span className='text-white text-lg font-semibold'>|</span>{' '}
+                    JavaScript
+                  </div>
+                </div>
+              </details>
+            </div>
             <div className='w-full inline-flex justify-between'>
               <a
                 href='https://note-taker-sen.herokuapp.com/'
