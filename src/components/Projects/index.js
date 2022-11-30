@@ -40,7 +40,7 @@ function Projects() {
               <details className='shadow-inner bg-gray-50 dark:bg-gray-600 rounded group mb-4'>
                 <summary className='list-none flex flex-wrap items-center cursor-pointer focus-visible:outline-none focus-visible:ring focus-visible:ring-red-400 rounded group-open:rounded-b-none group-open:z-[1]'>
                   <h3 className='flex flex-1 p-4 font-semibold dark:text-white'>
-                    Built with
+                    Technologies
                   </h3>
                   <div className='flex w-10 items-center justify-center'>
                     <div className='border-8 border-transparent border-l-gray-600 dark:border-l-gray-900 ml-2 group-open:rotate-90 transition-transform origin-left'></div>
@@ -121,7 +121,7 @@ function Projects() {
               <details className='shadow-inner bg-gray-50 dark:bg-gray-600 rounded group mb-4'>
                 <summary className='list-none flex flex-wrap items-center cursor-pointer focus-visible:outline-none focus-visible:ring focus-visible:ring-red-400 rounded group-open:rounded-b-none group-open:z-[1]'>
                   <h3 className='flex flex-1 p-4 font-semibold dark:text-white'>
-                    Built with
+                    Technologies
                   </h3>
                   <div className='flex w-10 items-center justify-center'>
                     <div className='border-8 border-transparent border-l-gray-600 dark:border-l-gray-900 ml-2 group-open:rotate-90 transition-transform origin-left'></div>
@@ -204,7 +204,7 @@ function Projects() {
               <details className='shadow-inner bg-gray-50 dark:bg-gray-600 rounded group mb-4'>
                 <summary className='list-none flex flex-wrap items-center cursor-pointer focus-visible:outline-none focus-visible:ring focus-visible:ring-red-400 rounded group-open:rounded-b-none group-open:z-[1]'>
                   <h3 className='flex flex-1 p-4 font-semibold dark:text-white'>
-                    Built with
+                    Technologies
                   </h3>
                   <div className='flex w-10 items-center justify-center'>
                     <div className='border-8 border-transparent border-l-gray-600 dark:border-l-gray-900 ml-2 group-open:rotate-90 transition-transform origin-left'></div>
@@ -284,7 +284,7 @@ function Projects() {
               <details className='shadow-inner bg-gray-50 dark:bg-gray-600 rounded group mb-4'>
                 <summary className='list-none flex flex-wrap items-center cursor-pointer focus-visible:outline-none focus-visible:ring focus-visible:ring-red-400 rounded group-open:rounded-b-none group-open:z-[1]'>
                   <h3 className='flex flex-1 p-4 font-semibold dark:text-white'>
-                    Built with
+                    Technologies
                   </h3>
                   <div className='flex w-10 items-center justify-center'>
                     <div className='border-8 border-transparent border-l-gray-600 dark:border-l-gray-900 ml-2 group-open:rotate-90 transition-transform origin-left'></div>
@@ -355,7 +355,7 @@ function Projects() {
               <details className='shadow-inner bg-gray-50 dark:bg-gray-600 rounded group mb-4'>
                 <summary className='list-none flex flex-wrap items-center cursor-pointer focus-visible:outline-none focus-visible:ring focus-visible:ring-red-400 rounded group-open:rounded-b-none group-open:z-[1]'>
                   <h3 className='flex flex-1 p-4 font-semibold dark:text-white'>
-                    Built with
+                    Technologies
                   </h3>
                   <div className='flex w-10 items-center justify-center'>
                     <div className='border-8 border-transparent border-l-gray-600 dark:border-l-gray-900 ml-2 group-open:rotate-90 transition-transform origin-left'></div>
@@ -429,7 +429,7 @@ function Projects() {
               <details className='shadow-inner bg-gray-50 dark:bg-gray-600 rounded group mb-4'>
                 <summary className='list-none flex flex-wrap items-center cursor-pointer focus-visible:outline-none focus-visible:ring focus-visible:ring-red-400 rounded group-open:rounded-b-none group-open:z-[1]'>
                   <h3 className='flex flex-1 p-4 font-semibold dark:text-white'>
-                    Built with
+                    Technologies
                   </h3>
                   <div className='flex w-10 items-center justify-center'>
                     <div className='border-8 border-transparent border-l-gray-600 dark:border-l-gray-900 ml-2 group-open:rotate-90 transition-transform origin-left'></div>
