@@ -91,7 +91,7 @@ details > summary::-webkit-details-marker {
   display: none;
 }
 
-/* "Built With" scroll behavior */
+/* "Technologies" scroll behavior */
 #scroll-container {
   border-top: 1px solid black;
   overflow: hidden;
