@@ -1,5 +1,4 @@
-import React, { useEffect } from 'react';
-// import { useQuery } from '@apollo/client';
+import React from 'react';
 
 import { creatNewProject } from '../../utils/helpers';
 import ProjectItem from '../ProjectItem';
