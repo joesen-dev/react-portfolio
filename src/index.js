@@ -1,16 +1,17 @@
-// import 'bootstrap/dist/css/bootstrap.css';
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import './index.css';
-// import './styles/index.css';
 import App from './App';
+import ErrorBoundary from './ErrorBoundary';
 import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+const root = createRoot(document.getElementById('root'));
+root.render(
+  <ErrorBoundary>
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  </ErrorBoundary>
 );
 
 // If you want to start measuring performance in your app, pass a function
