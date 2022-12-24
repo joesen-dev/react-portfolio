@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import React, { useState } from 'react';
 import Navigation from '../Nav';
 import Banner from '../Banner';
 import About from '../../pages/About';

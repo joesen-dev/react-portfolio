@@ -1,4 +1,4 @@
-import React, { useEffect, useContext, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import DarkModeButton from '../DarkModeButton';
 
 function Navigation(props) {
