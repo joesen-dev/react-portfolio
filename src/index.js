@@ -1,6 +1,6 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
-import './index.css';
+import './assets/global.css';
 import App from './App';
 import ErrorBoundary from './ErrorBoundary';
 import reportWebVitals from './reportWebVitals';

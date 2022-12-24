@@ -1,26 +1,23 @@
 import React from 'react';
 
-import { creatNewProject } from '../../utils/helpers';
-import ProjectItem from '../ProjectItem';
+import { creatNewProject } from '../utils/helpers';
+import ProjectItem from '../components/ProjectItem';
 
-import Capstone from '../../assets/images/project-images/Capstone.png';
-import Git_Social from '../../assets/images/project-images/Git_Social.png';
-import Team_Builder from '../../assets/images/project-images/Team_Builder.png';
-import README_Pro from '../../assets/images/project-images/README_Pro.png';
-import Staff_Tracker from '../../assets/images/project-images/Staff_Tracker.png';
-import Note_Taker from '../../assets/images/project-images/Notes-page.png';
+import Capstone from '../assets/images/project-images/Capstone.png';
+import Git_Social from '../assets/images/project-images/Git_Social.png';
+import Team_Builder from '../assets/images/project-images/Team_Builder.png';
+import README_Pro from '../assets/images/project-images/README_Pro.png';
+import Staff_Tracker from '../assets/images/project-images/Staff_Tracker.png';
+import Note_Taker from '../assets/images/project-images/Notes-page.png';
 
-const projectsData = require('../../db/projects.json');
+const projectsData = require('../db/projects.json');
 
 function Projects() {
   const projects = [];
-  console.log('ProjectData: ', projectsData);
+  // console.log('ProjectData: ', projectsData);
 
   const [capstone, gitSocial, teamBuilder, readmePro, staffTracker, noteTaker] =
     projectsData;
-
-  console.log('Capstone: ', capstone);
-  console.log('Git Social: ', gitSocial);
 
   /**
    * @Description create projects
@@ -100,11 +97,6 @@ function Projects() {
     );
   };
   createProjects();
-
-  /**
-   * @Description create a new project
-   * Make sure to add the projects array at the end of the arguments
-   */
 
   return (
     <section id='projects' className='mt-6 border-t border-slate-200'>

@@ -1,5 +1,4 @@
 import React, { useEffect, useContext, useState } from 'react';
-import { BsFillMoonStarsFill } from 'react-icons/bs';
 import DarkModeButton from '../DarkModeButton';
 
 function Navigation(props) {

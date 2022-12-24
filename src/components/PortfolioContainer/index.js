@@ -1,10 +1,10 @@
 import React, { useState, useContext } from 'react';
 import Navigation from '../Nav';
 import Banner from '../Banner';
-import About from '../About';
-import Projects from '../Projects';
+import About from '../../pages/About';
+import Projects from '../../pages/Projects';
 // import Contact from '../Contact';
-import Resume from '../Resume';
+import Resume from '../../pages/Resume';
 import Footer from '../Footer';
 
 export default function PortfolioContainer() {

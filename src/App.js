@@ -1,6 +1,6 @@
 import React from 'react';
 import PortfolioContainer from './components/PortfolioContainer';
-import { DarkModeProvider } from './utils/DarkModeContext';
+import { DarkModeProvider } from './context/DarkModeContext';
 
 const App = () => {
   return (
