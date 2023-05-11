@@ -1,3 +1,4 @@
+import ReactGA from 'react-ga';
 import { ProjectClass } from './projectClass';
 
 export function validateEmail(email) {
@@ -27,3 +28,18 @@ export function creatNewProject(
   );
   projectsArray.push(capstone);
 }
+
+// Handle Link Clicks
+export const handleLinkClick = (e, category, action, label) => {
+  // This event handler function accepts additional parameters for category, action, and label.
+  e.preventDefault(); // Prevent the default behavior of opening the link immediately
+
+  ReactGA.event({
+    category,
+    action,
+    label,
+  });
+
+  // Open the link in a new tab or window manually
+  window.open(e.currentTarget.href, '_blank');
+};

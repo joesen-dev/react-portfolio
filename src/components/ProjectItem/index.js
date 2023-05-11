@@ -1,24 +1,9 @@
 import React from 'react';
-import ReactGA from 'react-ga';
 import { AiFillGithub } from 'react-icons/ai';
+import { handleLinkClick } from '../../utils/helpers';
 
 function ProjectItem(item) {
   const { image, name, description, technologies, liveLink, gitHub } = item;
-  const handleLiveLinkClick = () => {
-    ReactGA.event({
-      category: 'External Link',
-      action: 'Live Link Click',
-      label: 'Live Link Profile',
-    });
-  };
-
-  const handleGitHubClick = () => {
-    ReactGA.event({
-      category: 'External Link',
-      action: 'GitHub Click',
-      label: 'GitHub Account',
-    });
-  };
 
   return (
     <div className='basis-1/3 flex-1 relative bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700'>
@@ -59,7 +44,14 @@ function ProjectItem(item) {
         <div className='w-full inline-flex justify-between'>
           <a
             href={liveLink}
-            onClick={handleLiveLinkClick}
+            onClick={e =>
+              handleLinkClick(
+                e,
+                'External Link',
+                'Live Link Click',
+                'Live Link Page'
+              )
+            }
             className='inline-flex items-center font-medium text-blue-600 hover:text-blue-800 dark:text-blue-500 dark:hover:text-blue-700'>
             See more
             <svg
@@ -75,7 +67,14 @@ function ProjectItem(item) {
           </a>
           <a
             href={gitHub}
-            onClick={handleGitHubClick}
+            onClick={e =>
+              handleLinkClick(
+                e,
+                'External Link',
+                'GitHub Click',
+                'GitHub Profile'
+              )
+            }
             className='text-gray-500 text-2xl hover:text-gray-900 dark:hover:text-white'>
             <AiFillGithub />
             <span className='sr-only'>GitHub Repository</span>

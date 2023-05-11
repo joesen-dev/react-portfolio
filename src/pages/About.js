@@ -1,18 +1,10 @@
 import React from 'react';
-import ReactGA from 'react-ga';
 import CodeCard from '../components/ProficienciesCards/codeCard';
 import DesignCard from '../components/ProficienciesCards/designCard';
 import SoftSkillsCard from '../components/ProficienciesCards/softSkillsCard';
+import { handleLinkClick } from '../utils/helpers';
 
 function About() {
-  const handleLinkedInClick = () => {
-    ReactGA.event({
-      category: 'External Link',
-      action: 'LinkedIn Click',
-      label: 'LinkedIn Profile',
-    });
-  };
-
   return (
     <section id='about' className='mt-6 border-t border-slate-200'>
       <div className='pt-4'>
@@ -30,7 +22,15 @@ function About() {
           <span className='text-red-500'>
             <a
               href='https://www.linkedin.com/in/josephsenyonga38/'
-              onClick={handleLinkedInClick}>
+              // onClick={handleLinkedInClick}
+              onClick={e =>
+                handleLinkClick(
+                  e,
+                  'External Link',
+                  'LinkedIn Click',
+                  'LinkedIn Profile'
+                )
+              }>
               LinkedIn
             </a>
           </span>
