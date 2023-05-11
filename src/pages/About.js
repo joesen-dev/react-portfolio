@@ -1,9 +1,18 @@
 import React from 'react';
-import DesignCard from '../components/ProficienciesCards/designCard';
+import ReactGA from 'react-ga';
 import CodeCard from '../components/ProficienciesCards/codeCard';
+import DesignCard from '../components/ProficienciesCards/designCard';
 import SoftSkillsCard from '../components/ProficienciesCards/softSkillsCard';
 
 function About() {
+  const handleLinkedInClick = () => {
+    ReactGA.event({
+      category: 'External Link',
+      action: 'LinkedIn Click',
+      label: 'LinkedIn Profile',
+    });
+  };
+
   return (
     <section id='about' className='mt-6 border-t border-slate-200'>
       <div className='pt-4'>
@@ -19,7 +28,11 @@ function About() {
           look at my <b>projects</b> page with examples of my work. You can
           reach me on{' '}
           <span className='text-red-500'>
-            <a href='https://www.linkedin.com/in/josephsenyonga38/'>LinkedIn</a>
+            <a
+              href='https://www.linkedin.com/in/josephsenyonga38/'
+              onClick={handleLinkedInClick}>
+              LinkedIn
+            </a>
           </span>
           . My <b>resume</b> is also available for download in this portfolio's
           resume section. Have fun!

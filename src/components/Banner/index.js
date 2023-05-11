@@ -1,9 +1,25 @@
 import React from 'react';
-import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai';
-// import Image from 'next/legacy/image';
+import ReactGA from 'react-ga';
+import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import headshot from '../../assets/images/headshot.png';
 
 function Banner() {
+  const handleLinkedInClick = () => {
+    ReactGA.event({
+      category: 'External Link',
+      action: 'LinkedIn Click',
+      label: 'LinkedIn Profile',
+    });
+  };
+
+  const handleGitHubClick = () => {
+    ReactGA.event({
+      category: 'External Link',
+      action: 'GitHub Click',
+      label: 'GitHub Account',
+    });
+  };
+
   return (
     <>
       <div className='text-center p-10'>
@@ -22,11 +38,13 @@ function Banner() {
       <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400'>
         <a
           href='https://www.linkedin.com/in/josephsenyonga38/'
+          onClick={handleLinkedInClick}
           className='hover:text-gray-900 dark:hover:text-white'>
           <AiFillLinkedin />
         </a>
         <a
           href='https://github.com/joesen-dev'
+          onClick={handleGitHubClick}
           className='hover:text-gray-900 dark:hover:text-white'>
           <AiFillGithub />
         </a>
