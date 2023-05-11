@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.613f3405.css",
+    "main.js": "/react-portfolio/static/js/main.25646081.js",
+    "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/soft.png": "/react-portfolio/static/media/soft.3bfd96516a260ad18d61.png",
+    "static/media/headshot.png": "/react-portfolio/static/media/headshot.536b5377bb9568257876.png",
+    "static/media/Git_Social.png": "/react-portfolio/static/media/Git_Social.1a4cecdd22ec61a7a6e8.png",
+    "static/media/Staff_Tracker.png": "/react-portfolio/static/media/Staff_Tracker.117f8f8c6840f34bc00c.png",
+    "static/media/README_Pro.png": "/react-portfolio/static/media/README_Pro.3594653cd67ddee87928.png",
+    "static/media/Capstone.png": "/react-portfolio/static/media/Capstone.a6c6a5154b5fc12c751b.png",
+    "static/media/Team_Builder.png": "/react-portfolio/static/media/Team_Builder.4b3884a2d214907ac3ac.png",
+    "static/media/Burtons.otf": "/react-portfolio/static/media/Burtons.c46a2405716f236c4a9a.otf",
+    "static/media/Joseph_Senyonga_Full-Stack_Developer_Resume.pdf": "/react-portfolio/static/media/Joseph_Senyonga_Full-Stack_Developer_Resume.aa206af95a088718501c.pdf",
+    "static/media/design.png": "/react-portfolio/static/media/design.9e6ea8290691c7efe827.png",
+    "static/media/code.png": "/react-portfolio/static/media/code.f4f54b48494bb8e30d1a.png",
+    "static/media/Notes-page.png": "/react-portfolio/static/media/Notes-page.9f7d1de8894aa70a9514.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.613f3405.css.map": "/react-portfolio/static/css/main.613f3405.css.map",
+    "main.25646081.js.map": "/react-portfolio/static/js/main.25646081.js.map",
+    "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.613f3405.css",
+    "static/js/main.25646081.js"
+  ]
+}
