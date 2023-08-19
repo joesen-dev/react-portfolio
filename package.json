@@ -19,11 +19,12 @@
     "tsparticles": "^2.9.3"
   },
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "deploy": "gh-pages -d build",
+    "dev": "next dev",
     "lint": "next lint",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm run build",
+    "start": "next start"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
