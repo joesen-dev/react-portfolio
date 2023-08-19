@@ -3,6 +3,7 @@
 package-lock.json
 misc
 TODO.md
+.env
 # my temp files
 api
 thumbs
