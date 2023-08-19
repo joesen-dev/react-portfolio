@@ -1,4 +1,7 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+
+// react-ga
+import ReactGA from 'react-ga';
 
 // icons
 import { FaCss3, FaFigma, FaHtml5, FaJs, FaReact } from 'react-icons/fa';
@@ -14,6 +17,9 @@ import CountUp from 'react-countup';
 // components
 import Avatar from '../../components/Avatar';
 import Circles from '../../components/Circles';
+
+// helpers
+import { handlePageInteraction } from '../../utils/helpers';
 
 //  about data
 export const aboutData = [
@@ -58,6 +64,12 @@ export const aboutData = [
 
 const About = () => {
   const [index, setIndex] = useState(0);
+
+  // Track page view for the about page
+  useEffect(() => {
+    ReactGA.pageview('/about');
+  }, []);
+
   return (
     <div className='h-full bg-primary/30 py-32 text-center xl:text-left'>
       <Circles />
@@ -147,7 +159,21 @@ const About = () => {
                     index === itemIndex &&
                     'text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-300'
                   } cursor-pointer capitalize xl:text-lg relative after:w-8 after:h-[2px] after:bg-white after:absolute after:-bottom-1 after:left-0`}
-                  onClick={() => setIndex(itemIndex)}>
+                  onClick={() => {
+                    setIndex(itemIndex);
+                    handlePageInteraction(
+                      // category
+                      'Page Interaction',
+                      // action
+                      `${item.title.charAt(0).toUpperCase()}${item.title.slice(
+                        1
+                      )} clicked`,
+                      // label
+                      `${item.title.charAt(0).toUpperCase()}${item.title.slice(
+                        1
+                      )}`
+                    );
+                  }}>
                   {item.title}
                 </div>
               );

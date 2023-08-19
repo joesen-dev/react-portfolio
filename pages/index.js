@@ -1,3 +1,8 @@
+import { useEffect } from 'react';
+
+// react-ga
+import ReactGA from 'react-ga';
+
 // framer motion
 import { motion } from 'framer-motion';
 
@@ -10,6 +15,11 @@ import ProjectsBtn from '../components/ProjectsBtn';
 import { fadeIn } from '../variants';
 
 const Home = () => {
+  // Track page view for the home page
+  useEffect(() => {
+    ReactGA.pageview('/');
+  }, []);
+
   return (
     <div className='bg-primary/60 h-full'>
       {/* text */}

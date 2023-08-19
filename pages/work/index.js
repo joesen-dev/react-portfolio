@@ -1,3 +1,8 @@
+import { useEffect } from 'react';
+
+// react-ga
+import ReactGA from 'react-ga';
+
 // framer motion
 import { motion } from 'framer-motion';
 import { fadeIn } from '../../variants';
@@ -8,6 +13,11 @@ import Circles from '../../components/Circles';
 import WorkSlider from '../../components/WorkSlider';
 
 const Work = () => {
+  // Track page view for the work page
+  useEffect(() => {
+    ReactGA.pageview('/work');
+  }, []);
+
   return (
     <div className='h-full bg-primary/30 py-36 flex items-center'>
       <Circles />

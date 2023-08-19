@@ -2,6 +2,7 @@
 # my .gitignore files
 package-lock.json
 misc
+TODO.md
 # my temp files
 api
 thumbs

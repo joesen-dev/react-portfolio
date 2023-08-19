@@ -1,7 +1,17 @@
+import { useEffect } from 'react';
+
+// react-ga
+import ReactGA from 'react-ga';
+
 // icons
 import { BsArrowRight } from 'react-icons/bs';
 
 const Contact = () => {
+  // Track page view for the about page
+  useEffect(() => {
+    ReactGA.pageview('/contact');
+  }, []);
+
   return (
     <div className='h-ful bg-primary/30'>
       <div className='container mx-auto py-32 text-center xl:text-left flex items-center justify-center h-full'>

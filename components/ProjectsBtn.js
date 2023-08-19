@@ -1,3 +1,6 @@
+// react-ga
+import ReactGA from 'react-ga';
+
 // next-image
 import Image from 'next/image';
 
@@ -7,12 +10,22 @@ import Link from 'next/link';
 // icons
 import { HiArrowRight } from 'react-icons/hi2';
 
+// helpers
+import { handlePageInteraction } from '../utils/helpers';
+
 const ProjectsBtn = () => {
   return (
     <div className='mx-auto xl:mx-0 z-10'>
       <Link
         href={'/work'}
-        className='relative w-[185px] h-[185px] flex justify-center items-center bg-circleStar bg-cover bg-center bg-no-repeat group'>
+        className='relative w-[185px] h-[185px] flex justify-center items-center bg-circleStar bg-cover bg-center bg-no-repeat group'
+        onClick={() =>
+          handlePageInteraction(
+            'Navigation',
+            'My Projects Click',
+            'Projects Navigation Button'
+          )
+        }>
         <Image
           src='/rounded-text.png'
           width={141}
