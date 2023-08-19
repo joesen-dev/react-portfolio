@@ -1,3 +1,5 @@
+import Head from 'next/head';
+
 // router
 import { useRouter } from 'next/router';
 
@@ -14,14 +16,19 @@ import '../styles/globals.css';
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
   return (
-    <Layout>
-      <AnimatePresence mode='wait'>
-        <motion.div key={router.route} className='h-full'>
-          <Transition />
-          <Component {...pageProps} />
-        </motion.div>
-      </AnimatePresence>
-    </Layout>
+    <>
+      <Head>
+        <link rel='icon' href='/favicon.ico' />
+      </Head>
+      <Layout>
+        <AnimatePresence mode='wait'>
+          <motion.div key={router.route} className='h-full'>
+            <Transition />
+            <Component {...pageProps} />
+          </motion.div>
+        </AnimatePresence>
+      </Layout>
+    </>
   );
 }
 
