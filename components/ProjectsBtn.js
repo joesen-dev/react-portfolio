@@ -15,10 +15,10 @@ import { handlePageInteraction } from '../utils/helpers';
 
 const ProjectsBtn = () => {
   return (
-    <div className='mx-auto xl:mx-0 z-10'>
+    <div className='mb-5 mx-auto xl:mx-0 z-10'>
       <Link
         href={'/work'}
-        className='relative w-[185px] h-[185px] flex justify-center items-center bg-circleStar bg-cover bg-center bg-no-repeat group'
+        className='relative w-[75px] h-[75px] sm:w-[185px] sm:h-[185px] flex justify-center items-center bg-circleStar bg-cover bg-center bg-no-repeat group'
         onClick={() =>
           handlePageInteraction(
             'Navigation',
@@ -33,7 +33,7 @@ const ProjectsBtn = () => {
           alt='projects-btn'
           className='animate-spin-slow w-full h-full max-w-[141px] max-h-[148px]'
         />
-        <HiArrowRight className='absolute text-4xl group-hover:translate-x-2 transition-all duration-300' />
+        <HiArrowRight className='absolute text-xl sm:text-4xl group-hover:translate-x-2 transition-all duration-300' />
       </Link>
     </div>
   );
